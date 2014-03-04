@@ -7,4 +7,13 @@ layout: default
 	{{ content }}
 </section>
 
-<p>{{ page.date | date_to_string }}</p>
+<section class="meta">
+	<span class="author">
+	  <a href="http://geeklu.com">{{ site.author }}</a>
+	</span>
+	<span class="time">
+	  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+	</span>
+</section>
+
+<!-- <p>{{ page.date | date_to_string }}</p> -->
