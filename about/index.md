@@ -1,16 +1,9 @@
 ---
-layout: post
-title: 我的第一个博客
+layout: page
+title: About me
 ---
 
-## 背景
-这个博客用jekyll搭建,放在github上.
+陈磊, 学生一名.
+喜欢MATLAB, 喜欢LaTeX.
 
-## 过程
-- jekyll版本号1.4.2, 1.4.3搭配Ruby 2.0.0不能本地用server.
-- gem 2.2.2.
-- Ruby和DevKit都用installer直接安装，x64版本.
-- 系统Windows x64.
-
-## 时间
-2014年2月伊始,今日2014年3月4日
+个人邮箱:chenlei.here@gmail.com
