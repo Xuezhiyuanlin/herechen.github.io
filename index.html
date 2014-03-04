@@ -3,8 +3,16 @@ layout: default
 title: Chen's Homepage
 ---
 
-<p><img src="/media/cover.jpg" title="earlybird" align="center" width="800"/></p>
+<!--
+<p>
+	<img src="/media/cover.jpg" title="earlybird" align="center" width="800"/>
+</p>
+-->
+<div style="background:url('/media/cover.jpg') no-repeat; width:800">
+	The early bird catches worm
+</div>
 <hr>
+
 <ul>
 	{% for post in site.posts %} 
 		<li class="listing-item">
