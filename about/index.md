@@ -1,9 +1,8 @@
 ---
-title: About me
 layout: page
+title: About me
 ---
 
-     
 陈磊, 学生一名.
 喜欢MATLAB, 喜欢LaTeX.
 
