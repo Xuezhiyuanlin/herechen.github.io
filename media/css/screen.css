@@ -33,6 +33,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/*img from the upper*/
+img {
+   max-width:100%;
+   height:auto;
+   width:expression(this.width<800?"auto":"800");
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
