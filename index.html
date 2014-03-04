@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section class="content">
+  <p>
+  Welcome to HereChen's Blog!.
+  </p>
+</section>
+
+<ul>
+  {% for post in site.posts %} 
+   <li>{{ post.date | date_to_string }} 
+     <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
+   </li>
+  {% endfor %}
+</ul>
+
