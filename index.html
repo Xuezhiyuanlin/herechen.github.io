@@ -9,7 +9,7 @@ title: Chen's Homepage
 </p>
 <hr>
 
-<ul>
+<!-- <ul>
 	{% for post in site.posts %} 
 		<li class="listing-item">
 			<time datetime="{{ page.date | date:"%Y-%m-%d" }}">
@@ -18,4 +18,17 @@ title: Chen's Homepage
 			<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
 		</li>
 	{% endfor %}
+</ul> -->
+<ul class="listing">
+{% for post in paginator.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
 </ul>
