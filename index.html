@@ -4,21 +4,10 @@ title: Chen's Homepage
 ---
 
 <p>
-	<!-- <img src="/media/bird.jpg" title="earlybird" align="center" width="800" height="262" /> -->
 	<img src="/media/bird.jpg" title="earlybird" align="center" />
 </p>
 <hr>
 
-<!-- <ul>
-	{% for post in site.posts %} 
-		<li class="listing-item">
-			<time datetime="{{ page.date | date:"%Y-%m-%d" }}">
-				{{ page.date | date:"%Y-%m-%d" }}
-			</time>
-			<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
-		</li>
-	{% endfor %}
-</ul> -->
 <ul class="listing">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -32,12 +21,3 @@ title: Chen's Homepage
   </li>
 {% endfor %}
 </ul>
-
-<!-- <ul>
-{% for post in site.posts %}
-    <li>
-        <div class="date">{{ post.date | date_to_string }}</div>
-        <a href="{{ site.prefix  }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ul> -->
