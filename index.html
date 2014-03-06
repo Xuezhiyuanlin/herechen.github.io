@@ -20,7 +20,7 @@ title: Chen's Homepage
 	{% endfor %}
 </ul> -->
 <ul class="listing">
-{% for post in paginator.posts %}
+{% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -32,3 +32,12 @@ title: Chen's Homepage
   </li>
 {% endfor %}
 </ul>
+
+<!-- <ul>
+{% for post in site.posts %}
+    <li>
+        <div class="date">{{ post.date | date_to_string }}</div>
+        <a href="{{ site.prefix  }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul> -->
