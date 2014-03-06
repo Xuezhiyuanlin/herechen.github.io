@@ -12,11 +12,9 @@ title: Chen's Homepage
 <ul>
 	{% for post in site.posts %} 
 		<li class="listing-item">
-			<span class="time">
-				<time datetime="{{ page.date | date:"%Y-%m-%d" }}">
-					{{ page.date | date:"%Y-%m-%d" }}
-				</time>
-			</span>
+			<time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+				{{ page.date | date:"%Y-%m-%d" }}
+			</time>
 			<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
 		</li>
 	{% endfor %}
