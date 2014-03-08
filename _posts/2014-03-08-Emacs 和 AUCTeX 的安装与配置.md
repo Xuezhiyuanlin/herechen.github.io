@@ -1,3 +1,8 @@
+---
+layout: post
+title: Emacs和AUCTeX的安装与配置
+---
+
 ## 说明 ##
 - 系统：Windows 7
 - 内容：本文只取主要部分说明，细节可从参考中查阅
