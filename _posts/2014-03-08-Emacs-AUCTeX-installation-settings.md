@@ -31,7 +31,7 @@ title: Emacs和AUCTeX的安装与配置
 
         (set-background-color "black")
 
-- 第二个init.el：在`C:\Program\emacs`下新建`init.el`，基本的配置如下。
+- 第二个`init.el`：在`C:\Program\emacs`下新建`init.el`，基本的配置如下。
 
         (setenv "HOME" "C:/Program/emacs")
         (add-to-list 'load-path "C:/Program/emacs/site-lisp")
