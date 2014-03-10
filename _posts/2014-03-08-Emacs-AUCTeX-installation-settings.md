@@ -15,23 +15,24 @@ title: Emacs和AUCTeX的安装与配置
 [https://www.gnu.org/s/auctex/‎](https://www.gnu.org/s/auctex/‎)
 
 ## 前提要点 ##
-- Emacs的配置文件名为`init.el`。
-- 通过`C:\Users\Lei\AppData\Roaming\.emacs.d`下的`init.el`加载Emacs安装目录下的`init.el`。(修改用户名`Lei`)
-- 通过Emacs安装目录下的`init.el`来加载设置项，包括AUCTeX。
+- Emacs的配置文件名为 `init.el` 。
+- 通过 `C:\Users\Lei\AppData\Roaming\.emacs.d` 下的 `init.el` 加载Emacs安装目录下的`init.el` 。(修改用户名 `Lei` )
+- 通过Emacs安装目录下的 `init.el` 来加载设置项，包括AUCTeX。
 
 ## Emacs安装 ##
 下载解压就无需多说，只需注意AUCTeX的解压位置和下面设置时的路径对应。另外，下面用到的用户名和安装目录根据需求改变。
 
 
 - 运行 Emacs 目录下 `bin` 目录中的 `addpm.exe` （这一步并非关键，用于在开始菜单建立一个菜单项）
-- 第一个`init.el`：在`C:\Users\Lei\AppData\Roaming\.emacs.d`目录下新建一个`init.el`，内容如下。
+- 第一个`init.el`：在 `C:\Users\Lei\AppData\Roaming\.emacs.d` 目录下新建一个 `init.el` ，内容如下。
 
         (load "C:/Program/emacs/init.el")
-用于加载Emacs安装目录下的`init.el`配置文件。如果仅仅为了测试此配置文件(第一个`init.el`)是否有效，写入颜色设置，启动Emacs来判断即可，如下为黑色背景设置。
+
+用于加载Emacs安装目录下的 `init.el` 配置文件。如果仅仅为了测试此配置文件(第一个 `init.el` )是否有效，写入颜色设置，启动Emacs来判断即可，如下为黑色背景设置。
 
         (set-background-color "black")
 
-- 第二个`init.el`：在`C:\Program\emacs`下新建`init.el`，基本的配置如下。
+- 第二个 `init.el` ：在 `C:\Program\emacs` 下新建 `init.el` ，基本的配置如下。
 
         (setenv "HOME" "C:/Program/emacs")
         (add-to-list 'load-path "C:/Program/emacs/site-lisp")
@@ -40,10 +41,10 @@ title: Emacs和AUCTeX的安装与配置
         (load "preview-latex.el" nil t t)
 
 ## 检查加载AUCTeX是否成功 ##
-在Emacs中新建或拖入后缀tex文件后，菜单栏会多出`Latex`和`Preview`，这就说明加载了`AUCTeX`
+在Emacs中新建或拖入后缀tex文件后，菜单栏会多出 `Latex` 和 `Preview` ，这就说明加载了 `AUCTeX`。
 
 ## XeLaTeX编译配置 ##
-在配置文件`init.el`中添加
+在配置文件 `init.el` 中添加
 
     (add-hook 'LaTeX-mode-hook 
       (lambda()
@@ -54,7 +55,7 @@ title: Emacs和AUCTeX的安装与配置
     ))
 
 ## Emacs 背景色配置 ##
-在配置文件`.init.el`中添加
+在配置文件 `init.el` 中添加
 
     (set-background-color "black")
     (set-foreground-color "white")
