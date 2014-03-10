@@ -16,7 +16,7 @@ title: Emacs和AUCTeX的安装与配置
 
 ## 前提要点 ##
 - Emacs的配置文件名为 `init.el` 。
-- 通过 `C:\Users\Lei\AppData\Roaming\.emacs.d` 下的 `init.el` 加载Emacs安装目录下的`init.el` 。(修改用户名 `Lei` )
+- 通过 `C:\Users\Lei\AppData\Roaming\.emacs.d` 下的 `init.el` 加载Emacs安装目录下的 `init.el` 。(修改用户名 `Lei` )
 - 通过Emacs安装目录下的 `init.el` 来加载设置项，包括AUCTeX。
 
 ## Emacs安装 ##
