@@ -72,4 +72,5 @@ title: Emacs和AUCTeX的安装与配置
 - XeLaTeX编译设置： [http://evan7s.blog.163.com/blog/static/108955356201142393254184/](http://evan7s.blog.163.com/blog/static/108955356201142393254184/)
 - AUCTex文档：[www.gnu.org/s/auctex/manual/auctex.pdf](www.gnu.org/s/auctex/manual/auctex.pdf)
 
+----
 3/10/2014 11:34:44 PM update1
