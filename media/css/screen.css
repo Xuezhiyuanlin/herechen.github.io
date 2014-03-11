@@ -38,7 +38,7 @@ time, mark, audio, video {
 img {
    max-width:100%;
    height:auto;
-   width:expression(this.width<800?"auto":"800");
+   /*width:expression(this.width<800?"auto":"800");*/
 }
 
 /* HTML5 display-role reset for older browsers */
