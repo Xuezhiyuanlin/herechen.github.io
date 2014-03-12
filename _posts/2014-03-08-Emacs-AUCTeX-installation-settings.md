@@ -19,7 +19,7 @@ title: Emacs和AUCTeX的安装与配置
 - 通过 `C:\Users\Lei\AppData\Roaming\.emacs.d` 下的 `init.el` 加载Emacs安装目录下的 `init.el` 。(修改用户名 `Lei` )
 - 通过Emacs安装目录下的 `init.el` 来加载设置项，包括AUCTeX。
 
-## Emacs安装 ##
+## Emacs配置 ##
 下载解压就无需多说，只需注意AUCTeX的解压位置和下面设置时的路径对应。另外，下面用到的用户名和安装目录根据需求改变。
 
 
@@ -39,6 +39,8 @@ title: Emacs和AUCTeX的安装与配置
         (add-to-list 'load-path "C:/Program/emacs/auctex/site-lisp/site-start.d")
         (load "auctex.el" nil t t)
         (load "preview-latex.el" nil t t)
+
+这里的配置主要目的是为了可以加载AUCTeX。
 
 ## 检查加载AUCTeX是否成功 ##
 在Emacs中新建或拖入后缀tex文件后，菜单栏会多出 `Latex` 和 `Preview` ，这就说明加载了 `AUCTeX`。
