@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 不同格式文档转换之Pandoc
+title: 不同文档格式转换之Pandoc
 ---
 
 ## Pandoc简述 ##
