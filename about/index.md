@@ -30,4 +30,12 @@ GitHub : [http://github.com/HereChen](http://github.com/HereChen)
 
 ---
 
+### 资源引用
+
+博客框架：[Yonsm.NET](http://yonsm.net/)   
+右下角的向上按钮：[89Ao](http://89ao.info)
+
+---
+
 [![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
+<!-- 微博图片可以更改，改变 1.png 数字试试 -->
