@@ -33,7 +33,8 @@ GitHub : [http://github.com/HereChen](http://github.com/HereChen)
 ### 资源引用
 
 博客框架：[Yonsm.NET](http://yonsm.net/)   
-右下角的向上按钮：[89Ao](http://89ao.info)
+右下角的向上按钮：[89Ao](http://89ao.info)  
+浮在post页面左边的大纲：[mad4a](http://mad4a.me/)
 
 ---
 
