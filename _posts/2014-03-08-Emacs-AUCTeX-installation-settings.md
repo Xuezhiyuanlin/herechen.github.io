@@ -89,9 +89,9 @@ tags: emacs latex
 ----
 
 ## 参考
-- 安装与配置： [http://blog.sina.com.cn/s/blog_4419b53f0100po34.html](http://blog.sina.com.cn/s/blog_4419b53f0100po34.html)
-- 安装与配置： [http://emacser.com/auctex.htm](http://emacser.com/auctex.htm)
-- Emacs配置文件：[http://chen.junchang.blog.163.com/blog/static/63445192013462389461/](http://chen.junchang.blog.163.com/blog/static/63445192013462389461/)
-- 背景颜色设置： [http://blog.sina.com.cn/s/blog_63047caf01017hjg.html](http://blog.sina.com.cn/s/blog_63047caf01017hjg.html)
-- XeLaTeX编译设置： [http://evan7s.blog.163.com/blog/static/108955356201142393254184/](http://evan7s.blog.163.com/blog/static/108955356201142393254184/)
-- AUCTex文档：[www.gnu.org/s/auctex/manual/auctex.pdf](www.gnu.org/s/auctex/manual/auctex.pdf)
+安装与配置： [http://blog.sina.com.cn/s/blog_4419b53f0100po34.html](http://blog.sina.com.cn/s/blog_4419b53f0100po34.html)  
+安装与配置： [http://emacser.com/auctex.htm](http://emacser.com/auctex.htm)  
+Emacs配置文件：[http://chen.junchang.blog.163.com/blog/static/63445192013462389461/](http://chen.junchang.blog.163.com/blog/static/63445192013462389461/)  
+背景颜色设置： [http://blog.sina.com.cn/s/blog_63047caf01017hjg.html](http://blog.sina.com.cn/s/blog_63047caf01017hjg.html)  
+XeLaTeX编译设置： [http://evan7s.blog.163.com/blog/static/108955356201142393254184/](http://evan7s.blog.163.com/blog/static/108955356201142393254184/)  
+AUCTex文档：[www.gnu.org/s/auctex/manual/auctex.pdf](www.gnu.org/s/auctex/manual/auctex.pdf)
