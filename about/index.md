@@ -1,9 +1,34 @@
 ---
-layout: default
-title: About me
+title: I do not want to survive. I want to live.
+layout: page
+comments: no
 ---
 
-陈磊, 学生一名.
-喜欢MATLAB, 喜欢LaTeX.
+<!-- {{ site.about }} -->
+这是陈磊的个人博客，创建于 2014 年。之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。
 
-个人邮箱: chenlei.here@gmail.com
+----
+
+### 关于作者
+
+热爱 MATLAB，热爱 LaTex，喜欢折腾。
+
+当然，爱哲学，爱数学，爱生活。
+
+----
+
+### 联系方式
+
+{% if site.qq %}
+ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
+{% endif %}
+网站：[{{ site.name }}]({{ site.url }})
+
+邮箱：[{{ site.email }}](mailto:{{ site.email }})
+
+GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+
+----
+
+
+<!-- [![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }}) -->
