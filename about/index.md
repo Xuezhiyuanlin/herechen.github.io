@@ -5,7 +5,7 @@ comments: no
 ---
 
 <!-- {{ site.about }} -->
-这是陈磊的个人博客，创建于 2014 年。之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。
+这是陈磊的个人博客，创建于 2014 年。之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。博客框架用的是 Jekyll，搭建的博客则放在 GitHub 上。
 
 ----
 
