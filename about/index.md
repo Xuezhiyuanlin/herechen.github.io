@@ -1,5 +1,5 @@
 ---
-title: I do not want to survive. I want to live.
+title: 关于
 layout: page
 comments: no
 ---
@@ -28,5 +28,7 @@ comments: no
 
 GitHub : [http://github.com/HereChen](http://github.com/HereChen)
 
+----
 
+### I do not want to survive. I want to live.
 <!-- [![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }}) -->
