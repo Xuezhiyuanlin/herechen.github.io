@@ -1,5 +1,14 @@
 [HereChen](http://herechen.github.io) 的博客
 
-本博客运行于 Jekyll @ GitHub，博客模板修改自 [Yonsm.NET](https://github.com/Yonsm/NET) 的博客。
+本博客运行于 Jekyll @ GitHub，博客模板修改自 [Yonsm.NET](https://github.com/Yonsm/NET) 的博客。删除了其中的评论部分，并只作了小幅修改。
+
+稍作修改后的博客并不是完全通用的，如果你要直接使用此博客，需要注意要修改的地方：
+
+- 在 `_layout/default.html` 中最后的 script 部分是 Google 的网站分析
+- 在 `_layout/default.html` 中 `footer` 部分含有个人信息
+- 在 `about/index.md` 中有个人信息
+- 删除 `_post` 中的个人博客
+
+其余可以在 `_config.yml` 中统一修改。
 
 2014-03-15
