@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:title/				# 固定链接
-url: http://herechen.github.io	# 网站链接 
+url: herechen.github.io			# 网站链接 
 name: HereChen 					# 网站名
 author: HereChen				# 作者 
 qq: 1737090943					# 用于关于页面的QQ号
