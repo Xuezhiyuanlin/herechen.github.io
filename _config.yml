@@ -2,7 +2,8 @@ markdown: rdiscount
 permalink: /:title/				# 固定链接
 url: herechen.github.io			# 网站链接 
 name: HereChen 					# 网站名
-author: HereChen				# 作者 
+author: HereChen				# 作者
+cnname: 陈磊                    # 中文作者名
 qq: 1737090943					# 用于关于页面的QQ号
 email: chenlei.gmail.com		# 电子邮件 
 # duoshuo: Yonsm 			# 多说评论帐号 
