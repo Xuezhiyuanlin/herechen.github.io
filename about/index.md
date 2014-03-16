@@ -48,6 +48,8 @@ MATLAB 中文论坛：[天天向上磊](http://www.ilovematlab.cn/space-uid-4659
 
 RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)
 
+页面预加载：[InstantClick](http://instantclick.io/start.html)
+
 ---
 
 [![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
