@@ -8,6 +8,8 @@
 - 在 `_layout/default.html` 中 `footer` 部分含有个人信息
 - 在 `about/index.md` 中有个人信息
 - 删除 `_post` 中的个人博客
+- `guestbook/index.md` 中关于图片的语句
+- `links/index.md` 中的链接
 
 其余可以在 `_config.yml` 中统一修改。
 
