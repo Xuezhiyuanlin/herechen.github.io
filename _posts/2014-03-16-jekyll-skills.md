@@ -33,8 +33,8 @@ Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
 git init // 当前项目 git 化  
 git add . // 当前目录加入 git 跟踪  
+git add filename // 当前文件 filename 参加 git 跟踪  
 git commit -m "XXXX" // 提交信息，交给 git 经管，提交到本地库  
-git add filename // 当前文件 filename 参加的 git 的跟踪中，交给 git 经管，提交到本地库  
 git remote add origin git@github.com:XXXX/YYYY.git // 与 GitHub 上项目链接 (ssh 方式)  
 git push -u origin master // 将本地库提交到 GitHub 上，另一种是 gh-pages  
 git rm -rf directory // 删除库中指定文件夹 directory 所有内容  
