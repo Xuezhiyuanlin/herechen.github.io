@@ -5,7 +5,7 @@ layout: post
 title: Jekyll 博客搭建略记
 thread: 5
 categories: 方案
-tags: jekyll rss 
+tags: jekyll 软件 
 ---
 
 ## 要点提要
