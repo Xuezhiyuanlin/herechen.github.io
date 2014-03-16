@@ -1,7 +1,9 @@
 ---
-date: 2014-03-08 11:10:51
+date: 2014-03-08 23:40:38
+origindate: ‏‎2014-03-08 23:40:38
 layout: post
 title: 我的轻量级生活
+thread: 2
 categories: 生活
 tags: 人生 生活 思考
 ---
