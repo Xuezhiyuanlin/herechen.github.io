@@ -5,7 +5,11 @@ comments: no
 ---
 
 <!-- {{ site.about }} -->
-这是陈磊的个人博客，创建于 2014 年。之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。博客框架用的是 Jekyll，搭建的博客则放在 GitHub 上。
+这是陈磊的个人博客，创建于 2014 年。
+
+之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。
+
+博客框架用的是 Jekyll，搭建的博客放在 GitHub 上。
 
 ----
 
@@ -28,12 +32,18 @@ comments: no
 
 GitHub : [http://github.com/HereChen](http://github.com/HereChen)
 
+知乎：[陈磊](http://www.zhihu.com/people/chenleihere/about)
+
+MATLAB 中文论坛：[天天向上磊](http://www.ilovematlab.cn/space-uid-465970.html)
+
 ---
 
 ### 资源引用
 
-博客框架：[Yonsm.NET](http://yonsm.net/)   
-右下角的向上按钮：[89Ao](http://89ao.info)  
+博客框架：[Yonsm.NET](http://yonsm.net/)
+
+右下角的向上按钮：[89Ao](http://89ao.info)
+
 浮在 post 页面左边的大纲：[mad4a](http://mad4a.me/)
 
 ---
