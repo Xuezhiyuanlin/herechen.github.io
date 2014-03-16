@@ -1,6 +1,6 @@
 [HereChen](http://herechen.github.io) 的博客
 
-本博客运行于 Jekyll @ GitHub，博客模板修改自 [Yonsm.NET](https://github.com/Yonsm/NET) 的博客。对于原模版功能上的增加包括菜单浮动和文章目录浮动。
+本博客运行于 Jekyll @ GitHub，博客模板修改自 [Yonsm.NET](https://github.com/Yonsm/NET) 的博客。对于原模版功能上的增加包括菜单浮动和文章目录浮动，并修改了 RSS 订阅。
 
 稍作修改后的博客并不是完全通用的，如果你要直接使用此博客，需要注意要修改的地方：
 
