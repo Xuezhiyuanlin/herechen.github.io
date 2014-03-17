@@ -72,7 +72,12 @@ h2{
 	line-height:46px;
 	color:#111;
 }
-h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
+h3{
+	font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	font-size:1.2em;
+	line-height:40px;
+	color:#222;
+}
 h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:#D0D0D0;}
