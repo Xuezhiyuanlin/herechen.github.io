@@ -30,14 +30,14 @@ layout: default
 <section align="right">
 <br/>
 <span>
-	<a {% if page.previous %} href="{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>
+	<a {% if page.previous %} href="{{ page.previous.url }}" class="pageNavLeft"{% endif %} {% unless page.previous %} class="pageNavInvalidLeft" {% endunless %} >&#10094; {{ page.previous.title }}</a>
 	&nbsp;&nbsp;&nbsp;
-	<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
+	<a {% if page.next %} href="{{ page.next.url }}" class="pageNavRight"{% endif %} {% unless page.next %} class="pageNavInvalidRight" {% endunless %} >{{ page.next.title }} &#10095;</a>
 </span>
 </section>
 
 <p></p>
-<input type="button" onclick="display('display')" value="评论  分享" class="displaybutton"/>
+<input type="button" onclick="display('display')" value="评论 &darr; 分享" class="displaybutton"/>
 <p></p>
 
 <div id="display" style="display:none">
