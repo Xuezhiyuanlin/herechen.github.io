@@ -50,6 +50,8 @@ RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)
 
 页面预加载：[InstantClick](http://instantclick.io/start.html)
 
+社交分享：[加网](http://www.jiathis.com/)
+
 ---
 
 [![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
