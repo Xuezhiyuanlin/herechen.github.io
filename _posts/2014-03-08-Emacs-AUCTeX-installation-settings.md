@@ -27,10 +27,10 @@ tags: emacs latex
 ## Emacs 和 AUCTeX 配置
 下载解压就无需多说，只需注意 AUCTeX 的解压位置和下面设置时的路径对应。另外，下面用到的用户名和安装目录根据需求改变。
 
-### 第一步
+**第一步**  
 运行 Emacs 目录下 bin 目录中的 addpm.exe （这一步并非关键，用于在开始菜单建立一个菜单项）
 
-### 第二步 设置 Emacs 配置文件
+**第二步 设置 Emacs 配置文件**  
 第一个 init.el：在 C:\Users\Lei\AppData\Roaming\.emacs.d 目录下新建一个 init.el ，内容如下。
 
         (load "C:/Program/emacs/init.el")
@@ -39,7 +39,7 @@ tags: emacs latex
 
         (set-background-color "black")
 
-### 第三步 配置 AUCTeX
+**第三步 配置 AUCTeX**  
 第二个 init.el ：在 C:\Program\emacs 下新建 init.el ，基本的配置如下。
 
         (setenv "HOME" "C:/Program/emacs")

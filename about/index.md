@@ -11,15 +11,11 @@ comments: no
 
 博客框架用的是 Jekyll，搭建的博客放在 GitHub 上。
 
-----
-
 ### 关于作者
 
 热爱 MATLAB，热爱 LaTex，喜欢折腾。
 
 当然，爱哲学，爱数学，爱生活。
-
-----
 
 ### 联系方式
 
@@ -35,8 +31,6 @@ GitHub : [http://github.com/HereChen](http://github.com/HereChen)
 知乎：[陈磊](http://www.zhihu.com/people/chenleihere/about)
 
 MATLAB 中文论坛：[天天向上磊](http://www.ilovematlab.cn/space-uid-465970.html)
-
----
 
 ### 资源引用
 
