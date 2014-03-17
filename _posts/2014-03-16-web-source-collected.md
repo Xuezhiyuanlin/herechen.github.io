@@ -12,8 +12,6 @@ tags: font web css html javascript
 
 首先，这是篇文章目的在于资源收集，并针对于 web 方面的资源。
 
-----
-
 ## Brick Webfonts
  
 [http://brick.im/](http://brick.im/)  
@@ -24,8 +22,6 @@ tags: font web css html javascript
 
 <img width="100%" height="auto" src="/assets/ebgaramond.png">
 <img width="100%" height="auto" src="/assets/roboto.png">
-
-----
 
 ## 纯 css 作图
  
@@ -59,8 +55,6 @@ tags: font web css html javascript
 	</style>
 </div>
 </center>
-
-----
 
 ## 分形图
 
