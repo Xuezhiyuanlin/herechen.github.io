@@ -161,3 +161,14 @@ color: white;
 background: #83BF73;
 }
 
+.displaybutton{
+	font-family: "Microsoft YaHei";
+	font-size: 1em;
+	width:600px; 
+	height:42px;
+	background: #f8f8f9;
+	color:#dd0000;
+	vertical-align: middle; 
+	cursor: pointer;
+	box-shadow: inset 0px 1px 0px #dd0000, 0px 1px 0px rgba(0,0,0,0.1);
+}

@@ -47,6 +47,19 @@
 
     </div>
 
+    <!--显示隐藏，用于评论和分享-->
+    <script type="text/javascript">
+	    function display(id){
+	        var traget=document.getElementById(id);
+	         if(traget.style.display=="none"){
+	                 traget.style.display="";
+	         }else{
+	                 traget.style.display="none";
+	       }
+	    }
+	</script>
+
+	<!--Google 分析-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
