@@ -35,20 +35,20 @@ Emacs 也算是轻量级的编辑工具，结合 AUCTeX ，再配置一下，编
 **第二步 设置 Emacs 配置文件**  
 第一个 init.el：在 C:\Users\Lei\AppData\Roaming\.emacs.d 目录下新建一个 init.el ，内容如下。
 
-        (load "C:/Program/emacs/init.el")
+    (load "C:/Program/emacs/init.el")
 
 用于加载 Emacs 安装目录下的 init.el 配置文件。如果仅仅为了测试此配置文件(第一个 init.el )是否有效，写入颜色设置，启动Emacs来判断即可，如下为黑色背景设置。
 
-        (set-background-color "black")
+    (set-background-color "black")
 
 **第三步 配置 AUCTeX**  
 第二个 init.el ：在 C:\Program\emacs 下新建 init.el ，基本的配置如下。
 
-        (setenv "HOME" "C:/Program/emacs")
-        (add-to-list 'load-path "C:/Program/emacs/site-lisp")
-        (add-to-list 'load-path "C:/Program/emacs/auctex/site-lisp/site-start.d")
-        (load "auctex.el" nil t t)
-        (load "preview-latex.el" nil t t)
+    (setenv "HOME" "C:/Program/emacs")
+    (add-to-list 'load-path "C:/Program/emacs/site-lisp")
+    (add-to-list 'load-path "C:/Program/emacs/auctex/site-lisp/site-start.d")
+    (load "auctex.el" nil t t)
+    (load "preview-latex.el" nil t t)
 
 这里的配置主要目的是为了可以加载 AUCTeX。
 

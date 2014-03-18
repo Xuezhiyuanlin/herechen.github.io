@@ -14,8 +14,11 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
-margin-right:auto;
-	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
+	margin-right:auto;
+	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;
+	background-color:#ffffff;
+}
+
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#dd0000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
@@ -24,7 +27,7 @@ p{padding:.5em 0;}
 li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
-pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
+
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
@@ -101,8 +104,33 @@ h3{
 	color:#222;
 }
 h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
-pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
-code{background-color:#D0D0D0;}
+
+
+/* 代码 */
+pre{margin:1em 0;
+	font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace,"Microsoft YaHei";
+	font-size:13px;
+	font-size:13px;
+	display:block;
+	line-height:1.5;
+	overflow:auto;
+}
+
+/* 代码 */
+#main article li code,#main article p code,#main article table code {
+	font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace,"Microsoft YaHei";
+	color: #4d4d4d;
+	background: #f8f8f8;
+	padding: 0 0.2em;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px 3px;
+	position: relative;
+	top: -2px;
+	margin: 0 3px;
+	box-shadow: 1px 1px 0 #999;
+	font-size:13px;
+}
+
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 

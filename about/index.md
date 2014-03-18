@@ -19,32 +19,22 @@ comments: no
 
 ### 联系方式
 
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
-网站：[{{ site.name }}]({{ site.url }})
-
-邮箱：[{{ site.email }}](mailto:{{ site.email }})
-
-GitHub : [http://github.com/HereChen](http://github.com/HereChen)
-
-知乎：[陈磊](http://www.zhihu.com/people/chenleihere/about)
-
+ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})  
+网站：[{{ site.name }}]({{ site.url }})  
+邮箱：[{{ site.email }}](mailto:{{ site.email }})  
+GitHub : [http://github.com/HereChen](http://github.com/HereChen)  
+知乎：[陈磊](http://www.zhihu.com/people/chenleihere/about)  
 MATLAB 中文论坛：[天天向上磊](http://www.ilovematlab.cn/space-uid-465970.html)
 
 ### 资源引用
 
-博客框架：[Yonsm.NET](http://yonsm.net/)
-
-右下角的向上按钮：[89Ao](http://89ao.info)
-
-浮在 post 页面左边的大纲：[mad4a](http://mad4a.me/)
-
-RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)
-
-页面预加载：[InstantClick](http://instantclick.io/start.html)
-
-社交分享：[JiaThis](http://www.jiathis.com/)
+博客框架：[Yonsm.NET](http://yonsm.net/)  
+右下角的向上按钮：[89Ao](http://89ao.info)  
+浮在 post 页面左边的大纲：[mad4a](http://mad4a.me/)  
+RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)  
+页面预加载：[InstantClick](http://instantclick.io/start.html)  
+社交分享：[JiaThis](http://www.jiathis.com/)  
+代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)
 
 ---
 
