@@ -16,7 +16,7 @@ layout: page
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    created <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.origindate | date:"%Y-%m-%d" }}</time>
+    <time style="float:right" datetime="{{ post.date | date:"%Y-%m-%d" }}">created {{ post.origindate | date:"%Y-%m-%d" }}</time>
     {% if site.truncate %}
     <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
@@ -28,12 +28,12 @@ layout: page
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/"><前页</a>
+    <a href="/">前页</a>
     {% else %}
-    <a href="/page{{paginator.previous_page}}">&lt;前页</a>
+    <a href="/page{{paginator.previous_page}}">&#10094; 前页</a>
     {% endif %}
   {% else %}
-    <span class="previous disabled">&lt;前页</span>
+    <span class="previous disabled">&#10094; 前页</span>
   {% endif %}
 
       {% if paginator.page == 1 %}
@@ -51,9 +51,9 @@ layout: page
     {% endfor %}
 
   {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">后页&gt;</a>
+    <a class="next" href="/page{{paginator.next_page}}">后页 &#10095;</a>
   {% else %}
-    <span class="next disabled" >后页&gt;</span>
+    <span class="next disabled" >后页 &#10095;</span>
   {% endif %}
   (共{{ paginator.total_posts }}篇)
 </div>
