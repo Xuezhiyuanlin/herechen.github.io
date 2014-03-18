@@ -34,7 +34,8 @@ MATLAB 中文论坛：[天天向上磊](http://www.ilovematlab.cn/space-uid-4659
 RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)  
 页面预加载：[InstantClick](http://instantclick.io/start.html)  
 社交分享：[JiaThis](http://www.jiathis.com/)  
-代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)
+代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)  
+html css 新特性监测：[Modernizr](http://modernizr.com/)
 
 ---
 
