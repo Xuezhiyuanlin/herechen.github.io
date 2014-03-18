@@ -8,6 +8,8 @@ categories: 软件
 tags: pandoc latex markdown html
 ---
 
+不同格式文档方便的相互转换，使得我们可以高效的通过不同方式发布文档，而 Pandoc 正好可以满足这样的部分需求。
+
 ## Pandoc 简述
 Pandoc 网址：[http://johnmacfarlane.net/pandoc/](http://johnmacfarlane.net/pandoc/)
 

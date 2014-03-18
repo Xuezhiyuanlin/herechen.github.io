@@ -8,6 +8,8 @@ categories: 软件
 tags: emacs latex
 ---
 
+Emacs 也算是轻量级的编辑工具，结合 AUCTeX ，再配置一下，编辑、编译、预览据一体化了。
+
 ## 说明
 - 系统：Windows 7
 - 版本：Emacs 24.3.1、AUCTeX 11.87
