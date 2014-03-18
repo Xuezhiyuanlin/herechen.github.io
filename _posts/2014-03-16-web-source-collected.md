@@ -26,18 +26,13 @@ tags: font web css html javascript
 [http://css-tricks.com/examples/ShapesOfCSS/?=derp](http://css-tricks.com/examples/ShapesOfCSS/?=derp)  
 纯 css 作图可以减少本地内存占用，或者图片加载缓慢这样的问题。以一个三角形为例，其代码如下。
 
-    <div class="shape">
-    	<div id="triangle-up"> 
-    	<style contenteditable>
-    		#triangle-up {
-    		width: 0;
-    		height: 0;
-    		border-left: 50px solid transparent;
-    		border-right: 50px solid transparent;
-    		border-bottom: 100px solid red;
-    		}
-    	</style>
-     
+    #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid red;
+    }
 
 <center>
 <div class="shape">
@@ -51,7 +46,7 @@ tags: font web css html javascript
 		border-bottom: 100px solid red;
 		}
 	</style>
- 
+    </div>
 </center>
 
 ## 分形图
