@@ -161,6 +161,10 @@ color: #AAA;
 margin: 20px 0;
 line-height: 150%;
 display: block;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+text-align: center;
 }
 
 .paginator a,.paginator span{
