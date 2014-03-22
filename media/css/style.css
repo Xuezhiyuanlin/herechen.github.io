@@ -16,6 +16,7 @@ body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;
+	/*background-color: transparent;*/
 	background-color:#ffffff;
 }
 
@@ -32,7 +33,16 @@ blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
-#container{width:600px;margin:2em auto;display:block;padding:0 2em;}
+#container{
+	width:600px;
+	margin:2em auto;
+	display:block;
+	padding:0 2em;
+/*	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
+    -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
+    box-shadow: 0 0 10px 0 #cfcfcf;*/
+	/*background-color:#ffffff;*/
+}
 
 .content{
 	font-size:16px;
