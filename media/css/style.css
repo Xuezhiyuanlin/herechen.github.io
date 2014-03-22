@@ -241,3 +241,8 @@ background: #83BF73;
 #instantclick-bar {
   background: #dd0000;
 }
+
+#quote {
+	font-family: "Alegreya";
+	font-weight: 700;
+}
