@@ -29,7 +29,8 @@ GitHub : [HereChen](http://github.com/HereChen)
 RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)  
 页面预加载：[InstantClick](http://instantclick.io/start.html)  
 代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)  
-html css 新特性监测：[Modernizr](http://modernizr.com/)
+html css 新特性监测：[Modernizr](http://modernizr.com/)   
+网页布局参考：[草依山](http://jser.me/)
 
 ---
 

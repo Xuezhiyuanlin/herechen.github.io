@@ -21,7 +21,7 @@ body{font-size:14px;word-spacing:1px;
 }
 
 *{padding:0;margin: 0;border:none;outline:none;}
-a{color:#dd0000;text-decoration:none;}
+a{color:#980000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
@@ -34,20 +34,23 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
 #container{
-	width:600px;
+	max-width: 750px;
 	margin:2em auto;
 	display:block;
-	padding:0 2em;
-/*	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
+	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
-    box-shadow: 0 0 10px 0 #cfcfcf;*/
-	/*background-color:#ffffff;*/
+    box-shadow: 0 0 10px 0 #cfcfcf;
+	background-color:#ffffff;
 }
 
 .content{
 	font-size:16px;
+	padding: 15px 20px 0px 20px;
 	line-height:24px;
+	display: block;
+	position: relative;
 }
+
 .content h1{padding:.5em 0;}
 .content img{max-width:640px;
 	display:block;margin:4px auto;
@@ -55,6 +58,7 @@ blockquote p{margin:0;padding:.5em 0;}
 	-moz-box-shadow:#999 1px 1px 4px;
 	box-shadow:#999 1px 1px 4px;
 }
+
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
@@ -88,7 +92,14 @@ blockquote p{margin:0;padding:.5em 0;}
 }
 
 
-header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
+header{padding:15px 20px;
+	display: block;
+	border-bottom: 1px solid #980000;
+	position:relative;
+	padding:15px 20px;
+	background: #f4f3e9;
+}
+
 nav{
 	font-family:"Electrolize",sans-serif;
 	font-size:1.1em;
@@ -97,13 +108,17 @@ nav{
 	margin-left:-8em;
 	width:6em;
 	text-align:center;
-	/*position:fixed; 固定菜单，浮动*/
-	/*top:100px;*/
-	/*left:100px;*/
 }
-nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
-.post{padding:.5em 0em;}
+
+nav a{display:block;
+	padding:.7em 1em;
+	color:#000000;}
+nav a:hover{background-color:#980000;
+	text-decoration:none;
+	color:#f9f9f9;
+	-webkit-transition:color .2s linear;
+}
+
 h1{
 	font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	font-size:1.6em;
@@ -125,17 +140,15 @@ h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-siz
 
 
 /* 代码 */
-pre{margin:1em 0;
+pre{overflow: auto;
+	margin:1em 0;
 	font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace,"Microsoft YaHei";
 	font-size:13px;
-	font-size:13px;
-	display:block;
 	line-height:1.5;
-	overflow:auto;
 }
 
 /* 代码 */
-#main article li code,#main article p code,#main article table code {
+article li code,article p code,article table code {
 	font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace,"Microsoft YaHei";
 	color: #4d4d4d;
 	background: #f8f8f8;
@@ -152,20 +165,22 @@ pre{margin:1em 0;
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
-footer{
-text-align:center;
-display:block;
-border-top: 1px dashed #CCC;
+footer{font-size: 16px;
+	padding: 10px 0;
+	text-align:center;
+	display:block;
+	border-top: 1px solid #980000;
+	background: #f4f3e9;
 }
 
 footer small {
-font-size: 13px;
-color: #AAA;
+	font-size: 16px;
+	color: #000;
 }
 
 footer a {
-color: #888;
-text-decoration: none;
+	color: #980000;
+	text-decoration: none;
 }
 
 footer a:hover {
@@ -221,7 +236,7 @@ text-decoration: none;
 
 .paginator .current-page {
 color: white;
-background: #ff0000;
+background: #980000;
 }
 
 .paginator a:hover{
@@ -232,19 +247,29 @@ background: #83BF73;
 .displaybutton{
 	font-family: "Microsoft YaHei";
 	font-size: 1em;
-	width:600px; 
+	width:710px; 
 	height:42px;
 	background: #f4f3e9;
-	color:#dd0000;
+	color:#980000;
 	vertical-align: middle; 
 	cursor: pointer;
 }
 
 #instantclick-bar {
-  background: #dd0000;
+  background: #980000;
 }
 
 #quote {
 	font-family: "Alegreya";
 	font-weight: 700;
+	text-align: left;
+}
+
+.logo{
+	top: 13px;
+	right:20px;
+	max-width: 100%;
+	vertical-align: middle;
+	position: absolute;
+	margin: 2px;
 }

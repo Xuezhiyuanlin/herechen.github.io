@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:title/				# 固定链接
 url: http://herechen.github.io	# 网站链接 
-name: HereChen 					# 网站名
+name: 夕阳西下陈 天天向尚磊 	# 网站名
 author: HereChen				# 作者
 cnname: 陈 磊                   # 中文作者名
 email: chenlei.here@gmail.com	# 电子邮件 

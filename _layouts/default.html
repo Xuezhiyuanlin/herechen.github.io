@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
-    <title>{% if page.path == 'index.html' %}{{ site.name }} | {{ site.cnname }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}
+    <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %} - {% endunless %}{{ page.title }}{% endif %}
     </title>
-    <link rel="shortcut icon" href="/logo.jpg" />
+    <link rel="shortcut icon" href="/assets/logo.jpg" />
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css" />
     <link rel="stylesheet" href="/media/css/highlight.css" />
@@ -21,29 +21,30 @@
 
   <body>
     <div id="container">
-      <div id="main" role="main">
-        <header>
-        <h1>{{ page.title }}</h1>
-        </header>
+      <header>
+        <h1><a href="/">{{ site.name }}</a></h1>
+        <p id="quote"> {{site.quote}}</p>
+        <a href="/about/"><img src="/assets/logo.jpg" class="logo"></a>
         <nav id="real_nav">
-        <span><a title="网站首页" class="" href="/">首页</a></span>
-        <span><a title="文章分类" class="" href="/categories/">分类</a></span>
-        <span><a title="标签索引" class="" href="/tags/">标签</a></span>
-        <span><a title="留言交流" class="" href="/guestbook/" data-no-instant>留言</a></span>
-        <span><a title="友情链接" class="" href="/links/">链接</a></span>
-        <span><a title="关于站长" class="" href="/about/">关于</a></span>
-        <span><a title="种子订阅" class="" href="/feed/" target="_blank">订阅</a></span>
+          <span><a title="网站首页" class="" href="/">首页</a></span>
+          <span><a title="文章分类" class="" href="/categories/">分类</a></span>
+          <span><a title="标签索引" class="" href="/tags/">标签</a></span>
+          <span><a title="留言交流" class="" href="/guestbook/" data-no-instant>留言</a></span>
+          <span><a title="友情链接" class="" href="/links/">链接</a></span>
+          <span><a title="关于站长" class="" href="/about/">关于</a></span>
+          <span><a title="种子订阅" class="" href="/feed/" target="_blank">订阅</a></span>
         </nav>
-        <article class="content" data-no-instant>
-        {{ content }}
-        </article>
-      </div>
+      </header>
 
-    <footer>
-        <p><small>
-        Copyright 2014 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
-         </small></p>
-    </footer>
+      <article class="content" data-no-instant>
+        {{ content }}
+      </article>
+
+      <footer>
+          <p><small>
+          Copyright 2014 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
+           </small></p>
+      </footer>
 
     </div>
 

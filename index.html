@@ -3,9 +3,6 @@ title: 夕阳西下陈 天天向尚磊
 layout: page
 ---
 
-<h3 id="quote"> {{site.quote}} </h3>
-<hr>
-
 <ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -57,4 +54,3 @@ layout: page
   {% endif %}
   (共{{ paginator.total_posts }}篇)
 </div>
-
