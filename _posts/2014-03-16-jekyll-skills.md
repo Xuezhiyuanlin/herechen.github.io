@@ -18,7 +18,7 @@ tags: jekyll 软件
 
 环境：Windows 7  
 Ruby：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)  
-DevKit：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
+DevKit：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)  
 git：[http://git-scm.com/downloads](http://git-scm.com/downloads)  
 Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
@@ -33,21 +33,22 @@ Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
 ## git 指令
 
-git init // 当前项目 git 化  
-git add . // 当前目录加入 git 跟踪  
-git add filename // 当前文件 filename 参加 git 跟踪  
-git commit -m "XXXX" // 提交信息，交给 git 经管，提交到本地库  
-git remote add origin git@github.com:XXXX/YYYY.git // 与 GitHub 上项目链接 (ssh 方式)  
-git push -u origin master // 将本地库提交到 GitHub 上，另一种是 gh-pages  
-git rm -rf directory // 删除库中指定文件夹 directory 所有内容  
-git rm filename // 删除库中指定文件 filename 内容   
-git clone git＠github.com:XXXX/YYYY.git // 将 GitHub 上的项目下载下来  
+    git init // 当前项目 git 化  
+    git add . // 当前目录加入 git 跟踪  
+    git add filename // 当前文件 filename 参加 git 跟踪  
+    git commit -m "XXXX" // 提交信息，交给 git 经管，提交到本地库  
+    git remote add origin git@github.com:XXXX/YYYY.git // 与 GitHub 上项目链接 (ssh 方式)  
+    git push -u origin master // 将本地库提交到 GitHub 上，另一种是 gh-pages  
+    git rm -rf directory // 删除库中指定文件夹 directory 所有内容  
+    git rm filename // 删除库中指定文件 filename 内容   
+    git clone git＠github.com:XXXX/YYYY.git // 将 GitHub 上的项目下载下来  
 
-一切妥当后，常用的是：  
-git add .  
-git commit -m "XXXX"  
-git push -u origin master  
-jekyll server // 本地预览
+一切妥当后，常用的是：
+
+    git add .  
+    git commit -m "XXXX"  
+    git push -u origin master  
+    jekyll server // 本地预览
 
 ## 中文错误
 

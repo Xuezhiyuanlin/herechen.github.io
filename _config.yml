@@ -4,17 +4,10 @@ url: http://herechen.github.io	# 网站链接
 name: HereChen 					# 网站名
 author: HereChen				# 作者
 cnname: 陈 磊                   # 中文作者名
-qq: 1737090943					# 用于关于页面的QQ号
-email: chenlei.here@gmail.com		# 电子邮件 
+email: chenlei.here@gmail.com	# 电子邮件 
 duoshuo: herechen 				# 多说评论帐号 
-# beian: 浙ICP备12026616号		# 备案号
-# cnzz: 119959					# 站长统计
 weibo: 1818475585				# 用于关于页面微博帐号 
 github: HereChen   				# GitHub帐号 
-pygments: true     				# 语法高亮
 safe: true         				# 安全模式
 paginate: 20					# 20 首页分页
 quote: "I do not want to survive. I want to live." # 喜欢的话
-# 关于介绍页面的内容
-about: " "						 
-# https://github.com/Yonsm/NET
