@@ -25,7 +25,7 @@ a{color:#980000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
-li{padding:.2em 0;}
+.post li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 
@@ -34,7 +34,7 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
 #container{
-	max-width: 750px;
+	max-width: 770px;
 	margin:2em auto;
 	display:block;
 	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
@@ -71,6 +71,7 @@ blockquote p{margin:0;padding:.5em 0;}
 .meta{font-size:12px;
 	color:#888;
 	background: #f4f3e9;
+	text-align: center;
 }
 
 .pageNavLeft,.pageNavRight{font-weight:bold;
@@ -94,29 +95,38 @@ blockquote p{margin:0;padding:.5em 0;}
 
 header{padding:15px 20px;
 	display: block;
-	border-bottom: 1px solid #980000;
+	border-bottom: 0px solid #980000;
 	position:relative;
 	padding:15px 20px;
 	background: #f4f3e9;
 }
 
-nav{
+/*导航栏设置*/
+.nav{
 	font-family:"Electrolize",sans-serif;
 	font-size:1.1em;
+	padding: 0px 0px 25px 0px;
 	text-transform:uppercase;
-	float:left;
-	margin-left:-8em;
-	width:6em;
-	text-align:center;
+	background-color: #980000;
 }
-
-nav a{display:block;
-	padding:.7em 1em;
-	color:#000000;}
-nav a:hover{background-color:#980000;
+.nav ul{
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+	list-style: none;
+	background: #980000;
+}
+.nav li{
+	float:left;
+	width: 110px;
+}
+.nav a{display:block;
+	color:#ffffff;
+	text-align: center;
+}
+.nav a:hover{background-color:#f4f3e9;
 	text-decoration:none;
-	color:#f9f9f9;
-	-webkit-transition:color .2s linear;
+	color:#980000;
 }
 
 h1{
@@ -124,6 +134,10 @@ h1{
 	font-size:1.6em;
 	color:#000;
 }
+.content h1{
+	text-align: center;
+}
+
 h2{
 	font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 	font-size:1.4em;
@@ -169,7 +183,7 @@ footer{font-size: 16px;
 	padding: 10px 0;
 	text-align:center;
 	display:block;
-	border-top: 1px solid #980000;
+	border-top: 3px solid #980000;
 	background: #f4f3e9;
 }
 
@@ -247,7 +261,7 @@ background: #83BF73;
 .displaybutton{
 	font-family: "Microsoft YaHei";
 	font-size: 1em;
-	width:710px; 
+	width:730px; 
 	height:42px;
 	background: #f4f3e9;
 	color:#980000;

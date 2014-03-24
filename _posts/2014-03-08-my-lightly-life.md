@@ -1,6 +1,6 @@
 ---
 date: 2014-03-08 23:40:38
-origindate: ‏‎2014-03-08 23:40:38
+creatdate: ‏‎2014-03-08 23:40:38
 layout: post
 title: 我的轻量级生活
 thread: 2

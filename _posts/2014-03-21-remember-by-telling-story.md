@@ -1,6 +1,6 @@
 ---
 date: 2014-03-21 23:05:00
-origindate: 2014-03-21 23:05:00
+creatdate: 2014-03-21 23:05:00
 layout: post
 title: 在复习的时候练习讲故事
 thread: 7

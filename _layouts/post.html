@@ -6,6 +6,7 @@ layout: default
 
 <section class="meta">
 <span class="time">
+  修改 
   <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
 </span>
 {% if page.categories.size != 0 %}
@@ -26,6 +27,10 @@ layout: default
   {% endfor %}
 </span>
 {% endif %}
+<span  class="time">
+  | 创建 
+  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.creatdate | date:"%Y-%m-%d" }}</time>
+</span>
 </section>
 
 <section class="post">

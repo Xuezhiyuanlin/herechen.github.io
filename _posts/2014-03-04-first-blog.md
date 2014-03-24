@@ -1,6 +1,6 @@
 ---
 date: 2014-03-04 19:08:04
-origindate: 2014-03-04 19:08:04
+creatdate: 2014-03-04 19:08:04
 layout: post
 title: 我的第一个博客
 thread: 1

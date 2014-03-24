@@ -1,6 +1,6 @@
 ---
 date: 2014-03-17 13:10:02
-origindate: 2014-03-16 23:42:31
+creatdate: 2014-03-16 23:42:31
 layout: post
 title: Web 资源集锦
 thread: 6

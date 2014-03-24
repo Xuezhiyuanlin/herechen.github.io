@@ -1,6 +1,6 @@
 ---
 date: 2014-03-16 12:42:29
-origindate: 2014-03-16 12:42:29
+creatdate: 2014-03-16 12:42:29
 layout: post
 title: Jekyll 博客搭建略记
 thread: 5

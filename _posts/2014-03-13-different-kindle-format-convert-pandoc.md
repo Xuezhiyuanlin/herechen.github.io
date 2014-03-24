@@ -1,6 +1,6 @@
 ---
 date: 2014-03-13 ‏‎23:52:28
-origindate: 2014-03-13 ‏‎23:52:28
+creatdate: 2014-03-13 ‏‎23:52:28
 layout: post
 title: 不同文档格式转换之 Pandoc
 thread: 4
