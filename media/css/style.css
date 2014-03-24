@@ -51,7 +51,6 @@ blockquote p{margin:0;padding:.5em 0;}
 	position: relative;
 }
 
-.content h1{padding:.5em 0;}
 .content img{max-width:640px;
 	display:block;margin:4px auto;
 	-webkit-box-shadow:#999 1px 1px 4px;
@@ -136,6 +135,7 @@ h1{
 }
 .content h1{
 	text-align: center;
+	padding:.5em 0;
 }
 
 h2{
