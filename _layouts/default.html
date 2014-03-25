@@ -3,6 +3,8 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{% endunless %}{{ page.title }}{% endif %}
     </title>
     <link rel="shortcut icon" href="/assets/logo.jpg" />
@@ -20,7 +22,7 @@
   </head>
 
   <body>
-    <div id="container">
+    <div id="container" class="container">
       <header>
         <h1><a href="/">{{ site.name }}</a></h1>
         <p id="quote"> {{site.quote}}</p>

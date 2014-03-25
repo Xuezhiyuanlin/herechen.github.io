@@ -12,11 +12,12 @@
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
-body{font-size:14px;word-spacing:1px;
+body{font-size:14px;
+	word-spacing:1px;
+	padding: 50px;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;
-	/*background-color: transparent;*/
 	background-color:#ffffff;
 }
 
@@ -33,13 +34,11 @@ blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
-#container{
-	/*max-width: 770px;*/
-	/*min-width: 32em;*/
-	/*should improve for resizing the window*/
+.container{
 	width: 770px;
-	margin:2em auto;
+	margin:0 auto;
 	display:block;
+	position: relative;
 	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
@@ -49,6 +48,7 @@ blockquote p{margin:0;padding:.5em 0;}
 .content{
 	font-size:16px;
 	padding: 15px 20px 0px 20px;
+	width: 730px;
 	line-height:24px;
 	display: block;
 	position: relative;
