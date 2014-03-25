@@ -34,7 +34,10 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
 #container{
-	max-width: 770px;
+	/*max-width: 770px;*/
+	/*min-width: 32em;*/
+	/*should improve for resizing the window*/
+	width: 770px;
 	margin:2em auto;
 	display:block;
 	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
