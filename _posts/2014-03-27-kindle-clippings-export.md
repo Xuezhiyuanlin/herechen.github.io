@@ -2,7 +2,7 @@
 date: 2014/03/28 00:35:45
 creatdate: 2014-03-27 12:51:10
 layout: post
-title: Kindle 笔记格式化导出（预告）
+title: Kindle 笔记格式化导出
 thread: 10
 categories: 作品
 tags: MATLAB
@@ -12,12 +12,15 @@ tags: MATLAB
 
 Author：[HereChen](http://herechen.github.io/)  
 Version：1.0 （数据可导出，文件不可导出，不可按条件导出） 
-update：2014-03-27
 
 
 ###项目描述
 
 本项目旨在提取 Kindle 笔记信息，并作分离，然后实现格式化导出。这里的格式化将针对 Markdown，但最终期望是实现笔记的提取以及按条件提取，并且可以自定义导出文本格式。
+
+###更新记录
+
+2014/03/28 00:35:45：实现数据格式化
 
 ###使用描述
 
