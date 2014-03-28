@@ -10,8 +10,6 @@ tags: MATLAB
 
 项目更新地址：[https://github.com/HereChen/KindleClippingsExport](https://github.com/HereChen/KindleClippingsExport)
 
-## Kindle Clippings 导出（MATLAB版）
-
 Author：[HereChen](http://herechen.github.io/)  
 Version：2.0  
 update：2014-03-28
@@ -19,6 +17,12 @@ update：2014-03-28
 ###项目描述
 
 本项目旨在提取 Kindle 笔记信息，并作分离，然后实现格式化导出。这里的格式化将针对 Markdown，但最终期望是实现笔记的提取以及按条件提取，并且可以自定义导出文本格式。
+
+###功能描述
+
+- 将笔记分为 bookname author clipping clipping-style location time1 time2，即实现各内容的分离。
+- 可以作为数据集导出，如果你需要自定义格式化导出 txt，可以删除其中文件导出部分或自己修改。
+- 可以实现通过作者、书名的关键词筛选，同时也可以实现笔记类型的筛选。筛选条件可以是多个。
 
 ###使用描述
 
