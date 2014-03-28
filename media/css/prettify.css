@@ -22,12 +22,12 @@ pre .dec, code .dec { color: #ae81ff; } /* decimal */
 
 pre.prettyprint, code.prettyprint {
 	background-color: #272822;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-o-border-radius: 8px;
-	-ms-border-radius: 8px;
-	-khtml-border-radius: 8px;
-	border-radius: 8px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-o-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
 }
 
 pre.prettyprint {
