@@ -1,5 +1,5 @@
 ---
-date: 2014/03/28 00:35:45
+date: 2014/03/29 12:20:46
 creatdate: 2014-03-27 12:51:10
 layout: post
 title: Kindle 笔记格式化导出
@@ -8,11 +8,9 @@ categories: 作品
 tags: MATLAB
 ---
 
-项目更新地址：[https://github.com/HereChen/KindleClippingsExport](https://github.com/HereChen/KindleClippingsExport)
-
 Author：[HereChen](http://herechen.github.io/)  
-Version：2.0  
-update：2014-03-28
+Version：2.0.1   
+update：2014-03-29
 
 ###项目描述
 
@@ -27,8 +25,11 @@ update：2014-03-28
 ###使用描述
 
 调用形式  
-`clipExport = KindleClippingsExport(clipImportFile, clipExportFile,varargin)`
+`clipExport = KindleClippingsExport(clipImportFile, clipExportFile,varargin)`  
 其中， `clipExport` 和 `varargin` 是可选参数。
+
+默认调用形式  
+`KindleClippingsExport(clipFile,clipExport,'bookname','','author','','clipstyle','','encoding','UTF-8')`
 
 
 `clipExport` -- 导出数据  
@@ -45,16 +46,22 @@ update：2014-03-28
 
 ###示例
 
-    clipImportFile = 'My Clippings.txt';
-    clipExportFile = 'ClipExportZhouGuoPing.txt';
-    KindleClippingsExport(clipImportFile,clipExportFile,...
-        'bookname','尼采');
+	clipImportFile = 'My Clippings.txt';
+	clipExportFile = 'ClipExportZhouGuoPing.txt';
+	KindleClippingsExport(clipImportFile,clipExportFile,...
+    	'bookname','尼采');
 
 ###项目文件
 
 `RunKindleClippingsExport.m` -- 一个导出demo  
-`KindleClippingsExport.m` -- 导出函数
+`KindleClippingsExport.m` -- 导出函数  
 `My Clippings.txt` -- 样本笔记
+
+###更新记录
+
+2014/03/29 12:20:46  
+1 添加筛选后如果无剪贴的警示输出。  
+2 各个属性分离错误时的警示输出。
 
 ###Thanks
 
