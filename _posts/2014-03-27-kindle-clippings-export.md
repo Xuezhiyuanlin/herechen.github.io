@@ -2,7 +2,7 @@
 date: 2014/03/29 12:20:46
 creatdate: 2014-03-27 12:51:10
 layout: post
-title: Kindle 笔记格式化导出
+title: Kindle 笔记格式化导出 (MATLAB 版)
 thread: 10
 categories: 作品
 tags: MATLAB
