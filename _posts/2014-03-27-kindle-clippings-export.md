@@ -1,5 +1,5 @@
 ---
-date: 2014/03/29 12:20:46
+date: 2014/03/29 22:52:18
 creatdate: 2014-03-27 12:51:10
 layout: post
 title: Kindle 笔记格式化导出 (MATLAB 版)
@@ -14,13 +14,14 @@ update：2014-03-29
 
 ###项目描述
 
-本项目旨在提取 Kindle 笔记信息，并作分离，然后实现格式化导出。这里的格式化将针对 Markdown，但最终期望是实现笔记的提取以及按条件提取，并且可以自定义导出文本格式。
+本项目旨在提取 Kindle 笔记信息（Kindle Paperwhite），并作分离，然后实现格式化导出。这里的格式化将针对 Markdown，目的在于导出之后可以直接发布。但可以通过修改数据导出部分来实现自定义数据导出。
 
 ###功能描述
 
 - 将笔记分为 bookname author clipping clipping-style location time1 time2，即实现各内容的分离。
 - 可以作为数据集导出，如果你需要自定义格式化导出 txt，可以删除其中文件导出部分或自己修改。
 - 可以实现通过作者、书名的关键词筛选，同时也可以实现笔记类型的筛选。筛选条件可以是多个。
+- 语言支持中文和英文（涉及到根据关键词分离数据，故存在语言支持的限制）。
 
 ###使用描述
 
@@ -51,11 +52,34 @@ update：2014-03-29
 	KindleClippingsExport(clipImportFile,clipExportFile,...
     	'bookname','尼采');
 
+导出效果发布后效果：[http://herechen.github.io/zhouguoping-Nietzsche-on-turning-point-of-century/](http://herechen.github.io/zhouguoping-Nietzsche-on-turning-point-of-century/)。
+
 ###项目文件
 
 `RunKindleClippingsExport.m` -- 一个导出demo  
 `KindleClippingsExport.m` -- 导出函数  
 `My Clippings.txt` -- 样本笔记
+
+###设计思路
+
+Kindle 笔记的提取依赖于其格式和关键词，以一个实际示例来展示。
+
+>  ==========  
+> 假如你愿意，你就恋爱吧 (王小波作品系列) (王小波，李银河)  
+> - Your Highlight at location 212-213 | Added on Friday, 14 March 2014 12:05:02
+>   
+> 肉麻是什么呢？肉麻就是人们不得不接受降低人格行为时的感觉。  
+>  ==========
+
+- 每条笔记有四行；
+- 笔记之间以 `==========` 分割；
+- 标题和作者之间以 `(` 分开，取最后一个括号做分离，并且将省略最后一个反括号；
+- 位置以数字读取；
+- 笔记类型通过关键词 `Your` 和 `at` 提取；
+- 时间通过 `,` 来分割获取；
+- 笔记内容直接提取第四行，如果为空将过滤。
+
+Kindle 系统语言为中文时类似。
 
 ###更新记录
 
