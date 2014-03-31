@@ -8,9 +8,10 @@ categories: 作品
 tags: MATLAB
 ---
 
-Author：[HereChen](http://herechen.github.io/)  
-Version：2.0.1   
-update：2014-03-29
+地址：[KindleClippingsExport](https://github.com/HereChen/KindleClippingsExport)  
+作者：[HereChen](http://herechen.github.io/)  
+版本：2.0.1   
+更新：2014-03-29
 
 ###项目描述
 
