@@ -68,9 +68,24 @@ File.read_with_options(File.join(base, name),:encoding=>"utf-8")
 
 本站使用的是说多的评论，同样，注册一个 [duoshuo](http://duoshuo.com/) 账号，然后然后会有一个对应的 script。也可以用[友言](http://www.uyan.cc/)作为社交评论。至于社交分享，可以使用[加网](http://www.jiathis.com)。
 
-## 参考
+## 快速创建一个博客模板
+
+jekyll 有一部分是关于博客信息的设置段，每次建都要重复这些复制粘贴，实在不方便。这里就有一个快速新建模板的项目，[地址](https://github.com/jsw0528/jekyll-cli)。最开始了解到这个项目则是在一篇博文上，[使用jekyll-cli快速写blog](http://jser.me/2014/03/25/%E4%BD%BF%E7%94%A8jekyll-cli%E5%BF%AB%E9%80%9F%E5%86%99blog.html)。
+
+安装之后，可以通过下面的指令来新建模板
+
+	jkl post 我是博客模板
+
+这样新建出来会直接包含时间前缀。如果需要以英文作为文件名，也就是中文转拼音，则可加入参数，以如下形式新建
+
+	jkl post -p 我是博客模板
+
+仅仅这样还不够，因为这样只有默认的几项参数包含在模板内，于是我更改了其中的 `post.js` 对应内容。
+
+## 扩展阅读及参考
 
 博客搭建入门：[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
+git 指令：[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)  
 中文乱码：[Jekyll在Windows下面中文编码问题解决方案](http://www.cnblogs.com/aleda/articles/Jekyll-in-Windows-following-Chinese-encoding-problem-solutions.html)  
 
 一些功能引用在网站的**关于**中的资源引用有说明。
