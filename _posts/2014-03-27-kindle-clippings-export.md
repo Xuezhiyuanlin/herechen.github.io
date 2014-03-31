@@ -28,12 +28,13 @@ update：2014-03-29
 调用形式
 
 	clipExport = KindleClippingsExport(clipImportFile, clipExportFile,varargin)
-  
+
 其中， `clipExport` 和 `varargin` 是可选参数。
 
 默认调用形式 
 
-	KindleClippingsExport(clipFile,clipExport,'bookname','','author','','clipstyle','','encoding','UTF-8')
+	KindleClippingsExport(clipFile,clipExport,...
+		'bookname','','author','','clipstyle','','encoding','UTF-8')
 
 
 `clipExport` -- 导出数据  

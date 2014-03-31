@@ -37,8 +37,10 @@ layout: default
 {{ content }}
 </section>
 
-<section align="right">
 <br/>
+<br/>
+
+<section>
 <span>
 	<a {% if page.previous %} href="{{ page.previous.url }}" class="pageNavLeft"{% endif %} {% unless page.previous %} class="pageNavInvalidLeft" {% endunless %} >&#10094; {{ page.previous.title }}</a>
 	&nbsp;&nbsp;&nbsp;
