@@ -5,45 +5,43 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <section class="meta">
-<span class="time">
-  修改 
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-</span>
-{% if page.categories.size != 0 %}
- | 
-<span class="categories">
-  分类
-  {% for cat in page.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
-  {% endfor %}
-</span>
-{% endif %}
-{% if page.tags.size != 0 %}
- | 
-<span class="tags">
-  标签
-  {% for tag in page.tags %}
-  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
-  {% endfor %}
-</span>
-{% endif %}
-<span  class="time">
-  | 创建 
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.creatdate | date:"%Y-%m-%d" }}</time>
-</span>
+	<span clas="time">
+	  修改 
+	  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+	</span>
+	<span  class="time">
+	  | 创建 
+	  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.creatdate | date:"%Y-%m-%d" }}</time>
+	</span>
+	{% if page.categories.size != 0 %}
+	 | 
+	<span class="categories">
+	  分类
+	  {% for cat in page.categories %}
+	  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+	  {% endfor %}
+	</span>
+	{% endif %}
+	{% if page.tags.size != 0 %}
+	 | 
+	<span class="tags">
+	  标签
+	  {% for tag in page.tags %}
+	  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+	  {% endfor %}
+	</span>
+	{% endif %}
+	<span class="author">
+	  | 作者
+	  <a href="{{ site.url }}">{{ site.author }}</a>
+	</span>
 </section>
 
 <section class="post">
-{{ content }}
-<br/>
-<span class="author">
-  作者：
-  <a href="{{ site.url }}">{{ site.author }}</a>
-</span>
+	{{ content }}
 </section>
 
-<br/>
-<br/>
+<br><br>
 
 <section>
 <span>

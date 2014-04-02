@@ -14,11 +14,11 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 body{font-size:14px;
 	word-spacing:1px;
-	padding: 50px;
+	padding: 0;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;
-	/*background-color:#ffffff;*/
+	background: #E0E0E0;
 }
 
 *{padding:0;margin: 0;border:none;outline:none;}
@@ -38,7 +38,7 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
 .container{
-	max-width: 800px;
+	max-width: 770px;
 	min-width: 400px;
 	margin:0 auto;
 	display:block;
@@ -50,7 +50,7 @@ blockquote p{margin:0;padding:.5em 0;}
 
 .content{
 	font-size:16px;
-	padding: 30px 80px;
+	padding: 30px 70px;
 	line-height:24px;
 	display: block;
 	position: relative;
@@ -66,9 +66,6 @@ blockquote p{margin:0;padding:.5em 0;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
-.listing-item a{
-	padding:.2em 1em;
-}
 
 .listing-item time{color:#999999;}
 .listing-seperator{font-weight:bold;}
@@ -97,32 +94,32 @@ blockquote p{margin:0;padding:.5em 0;}
 }
 
 
-header{padding:15px 20px;
+header{padding:30px 20px 10px 20px;
 	display: block;
 	border-bottom: 0px solid #980000;
 	position:relative;
-	padding:15px 20px;
 	background: #f4f3e9;
 }
 
 /*导航栏设置*/
 .nav{
 	font-family:"Electrolize",sans-serif;
-	font-size:1.1em;
-	padding: 0px 0px 25px 0px;
+	font-size: 14px;
+	height: 30px;
 	text-transform:uppercase;
 	background-color: #980000;
 }
 .nav ul{
 	margin: 0;
 	padding: 0;
-	line-height: 25px;
+	line-height: 30px;
 	list-style: none;
 	background: #980000;
 }
 .nav li{
 	float:left;
-	width: 114.285px;
+	width: 110px;
+	height: 30px;
 }
 .nav a{display:block;
 	color:#ffffff;
@@ -185,7 +182,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
 footer{font-size: 16px;
-	padding: 10px 0;
+	height: 80px;
 	text-align:center;
 	display:block;
 	border-top: 3px solid #980000;
@@ -266,7 +263,7 @@ background: #83BF73;
 .displaybutton{
 	font-family: "Microsoft YaHei";
 	font-size: 1em;
-	width:640px; 
+	width:630px; 
 	height:42px;
 	background: #f4f3e9;
 	color:#980000;
@@ -281,14 +278,23 @@ background: #83BF73;
 #quote {
 	font-family: "Alegreya";
 	font-weight: 700;
+	font-size: 14px;
 	text-align: left;
 }
 
 .logo{
-	top: 13px;
+	top: 30px;
 	right:20px;
 	max-width: 100%;
 	vertical-align: middle;
 	position: absolute;
 	margin: 2px;
+}
+
+.indextitle{
+	font-size: 18px;
+}
+
+#indexlist{
+	font-size: 14px;
 }
