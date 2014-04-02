@@ -10,7 +10,6 @@ tags: MATLAB
 
 地址：[KindleClippingsExport](https://github.com/HereChen/KindleClippingsExport)  
 作者：[HereChen](http://herechen.github.io/)  
-版本：2.0.1   
 更新：2014-03-29
 
 ###项目描述
@@ -85,12 +84,6 @@ Kindle 笔记的提取依赖于其格式和关键词，以一个实际示例来�
 - 笔记内容直接提取第四行，如果为空将过滤。
 
 Kindle 系统语言为中文时类似。
-
-###更新记录
-
-2014/03/29 12:20:46  
-1 添加筛选后如果无剪贴的警示输出。  
-2 各个属性分离错误时的警示输出。
 
 ###Thanks
 
