@@ -20,15 +20,11 @@ GitHub : [HereChen](http://github.com/HereChen)
 
 ### 我的项目
 
-- 2014 [KindlePaperWhite 笔记导出](https://github.com/HereChen/KindleClippingsExport)  
-- 2014 [MATLAB 学习笔记](https://github.com/HereChen/TheWayMATLABLearning)
+- 2014 [KindlePaperWhite 笔记导出 (MATLAB)](https://github.com/HereChen/KindleClippingsExport)  
+- 2014 [MATLAB 学习笔记 (LaTeX)](https://github.com/HereChen/TheWayMATLABLearning)
 
 ### 关于博客
-这是陈磊的个人博客，创建于 2014 年。
-
-之前用了 [Luke](http://geeklu.com) 的博客模板，本打算根据 [Devlounge](http://www.devlounge.net/) 的设计风格自己改造一个，苦于技术受限，暂且换用了 [Yonsm.NET](http://yonsm.net/) 的模板。
-
-博客框架用的是 Jekyll，搭建的博客放在 GitHub 上。
+博客创建于 2014 年。采用的 [Yonsm.NET](http://yonsm.net/) 的模板，设计上参照了 [草依山](http://jser.me/) 、[Devlounge](http://www.devlounge.net/)、[爱范儿](http://www.ifanr.com/)。主题颜色为红、黑、白，内容上依照多文少图、简洁凝练的原则，布局只分为两层。
 
 博客内容分为两个方面：一是科技类，主要是计算机相关方面；二是人文类，主要是关于所思所想以及读书摘抄。
 
@@ -38,8 +34,7 @@ GitHub : [HereChen](http://github.com/HereChen)
 RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)  
 页面预加载：[InstantClick](http://instantclick.io/start.html)  
 代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)  
-html css 新特性监测：[Modernizr](http://modernizr.com/)   
-网页布局参考：[草依山](http://jser.me/)
+html css 新特性监测：[Modernizr](http://modernizr.com/)
 
 ---
 
