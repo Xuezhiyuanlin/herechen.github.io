@@ -67,9 +67,9 @@ blockquote p{margin:0;padding:.5em 0;}
 .pageNavLeft,.pageNavInvalidLeft{float: left;}
 .pageNavRight,.pageNavInvalidRight{float: right;}
 
-header{padding:35px 20px 15px 20px;display: block;position:relative;background: #980000;}
+header{padding:35px 40px 15px 40px;display: block;position:relative;background: #980000;}
 header a{font-family: serif;font-size: 30px;color: #ffffff;}
-.logo{top: 25px;right:20px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
+.logo{top: 25px;right:30px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
 
 .nav{font-family:"Electrolize",sans-serif;font-size: 14px;height: 30px;text-transform:uppercase;background-color: #980000;}
 .nav ul{margin: 0;padding: 0;line-height: 30px;list-style: none;background: #980000;}
