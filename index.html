@@ -3,7 +3,7 @@ title: 夕阳西下陈 天天向尚磊
 layout: page
 ---
 
-<ul id="indexlist" class="listing">
+<ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
@@ -11,7 +11,7 @@ layout: page
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-    <div class="indextitle">
+    <div class="listing-title">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       &raquo;
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
