@@ -24,7 +24,7 @@ GitHub : [HereChen](http://github.com/HereChen)
 - 2014 [MATLAB 学习笔记 (LaTeX)](https://github.com/HereChen/TheWayMATLABLearning)
 
 ### 关于博客
-博客创建于 2014 年。采用的 [Yonsm.NET](http://yonsm.net/) 的模板，设计上参照了 [草依山](http://jser.me/) 、[Devlounge](http://www.devlounge.net/)、[爱范儿](http://www.ifanr.com/)。主题颜色为红、黑、白，内容上依照多文少图、简洁凝练的原则，布局只分为两层。
+博客创建于 2014 年。采用的 [Yonsm.NET](http://yonsm.net/) 的模板，设计上参照了 [草依山](http://jser.me/) 、[Devlounge](http://www.devlounge.net/)、[爱范儿](http://www.ifanr.com/)、[rusty shutter](http://lhzhang.com/)。主题颜色为红、黑、白，内容上依照多文少图、简洁凝练的原则，布局只分为两层。
 
 博客内容分为两个方面：一是科技类，主要是计算机相关方面；二是人文类，主要是关于所思所想以及读书摘抄。
 
