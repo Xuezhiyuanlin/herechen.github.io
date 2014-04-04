@@ -5,7 +5,7 @@ layout: post
 title: Web 资源集锦
 thread: 6
 categories: 资源
-tags: font web css html javascript
+tags: css html javascript
 ---
 
 这是篇文章目的在于资源收集，并针对 web 方面的资源。
