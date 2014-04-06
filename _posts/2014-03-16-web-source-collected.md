@@ -1,5 +1,5 @@
 ---
-date: 2014-03-17 13:10:02
+date: 2014-04-06 19:38:49
 creatdate: 2014-03-16 23:42:31
 layout: post
 title: Web 资源集锦
@@ -10,7 +10,7 @@ tags: css html javascript
 
 这是篇文章目的在于资源收集，并针对 web 方面的资源。
 
-## Brick Webfonts
+### Brick Webfonts
  
 [http://brick.im/](http://brick.im/)  
 这是几款 web 字体的合集，特点在于漂亮、快速、开源，并且是在不修改的情况下渲染。使用起来也比较简单，当然，它并不是中文字体。该字体的使命如此描述：
@@ -21,7 +21,7 @@ tags: css html javascript
 <img width="100%" height="auto" src="/assets/ebgaramond.png">
 <img width="100%" height="auto" src="/assets/roboto.png">
 
-## 纯 css 作图
+### 纯 css 作图
  
 [http://css-tricks.com/examples/ShapesOfCSS/?=derp](http://css-tricks.com/examples/ShapesOfCSS/?=derp)  
 纯 css 作图可以减少本地内存占用，或者图片加载缓慢这样的问题。以一个三角形为例，其代码如下。
@@ -49,7 +49,7 @@ tags: css html javascript
     </div>
 </center>
 
-## 分形图
+### 分形图
 
 [http://rectangleworld.com/blog/archives/tag/fractal](http://rectangleworld.com/blog/archives/tag/fractal)  
 分形图的优点是可以用一些规则来作图，这样就可以是动态的，并且节省本地内存。用的基于 Canvas 画出来的，这个主页上还有一些其他的作品，倒是可以用来作网站背景。  
@@ -57,7 +57,7 @@ tags: css html javascript
 <img width="100%" height="auto" src="/assets/fractalline.png">
 <img width="100%" height="auto" src="/assets/fracaline2.png">
 
-## HTML 箭头
+### HTML 箭头
 
 [http://character-code.com/arrows-html-codes.php](http://character-code.com/arrows-html-codes.php)  
 各种各样的漂亮箭头，实在是眼花缭乱。查看原文链接，视觉效果更佳。
@@ -74,3 +74,19 @@ tags: css html javascript
  &#10173; &#10174; &#10175; &#10548; &#10549; &#10550; &#10551; &#10552; 
  &#10553; &#65513; &#65514; &#65515; &#65516;
 </div>
+
+### 预加载 InstantClick
+
+[http://instantclick.io/start.html](http://instantclick.io/start.html)   
+顾名思义，就是提前加载页面，在打开一个网站后，使得在打开另一个子网页时速度显得 “很快”。下载或者引入 `instantclick.min.js` ，将下面两行脚本放在 `<body>` 标签结束之前即可。
+
+	<script src="instantclick.min.js"></script>
+    <script data-no-instant>InstantClick.init();</script>
+
+点击网页时，如果成功预加载，顶上会有一个进度条，可以自定义颜色，放入 css 中即可。
+
+	#instantclick-bar{background: #980000;}
+
+值得注意的是，使用预加载可能和其他脚本冲突，即导致其他脚本无效。可以把所有标签都加上 `data-no-instant` ，然后再逐个消除来检查是哪部分引起的冲突。
+
+	<article class="content" data-no-instant>
