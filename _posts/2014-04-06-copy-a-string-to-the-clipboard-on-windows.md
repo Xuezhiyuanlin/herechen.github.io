@@ -5,7 +5,7 @@ layout: post
 title: 系统剪贴板读取和写入 (Windows、Python)
 thread: 14
 categories: 方案
-tags: 方案
+tags: python 剪贴板
 ---
 
 我一直希望可以通过快捷的方式复制当前的时间，并且还要能够按既定的格式。于是，就开始考虑怎么向 Windows 系统的剪贴板写入内容，然后直接 Ctrl+V 就可以了。Google 上一搜索，果然是都已经有了，选择了其中精简的 Python 拿出来。
