@@ -50,4 +50,5 @@ tags: 方案
 + 向剪贴板写入内容：[How do i copy a string to the clipboard on windows using python?](http://stackoverflow.com/questions/579687/how-do-i-copy-a-string-to-the-clipboard-on-windows-using-python)  
 + 获取系统时间：[Python 获得系统时间](http://blog.csdn.net/menglei8625/article/details/7575809)
 + 读取剪贴板内容：[How do I read text from the (windows) clipboard from python?](http://stackoverflow.com/questions/101128/how-do-i-read-text-from-the-windows-clipboard-from-python)
-+ 读取剪贴板内容：[how to read data from clipboard and pass it as value to a variable in python?](http://stackoverflow.com/questions/16188160/how-to-read-data-from-clipboard-and-pass-it-as-value-to-a-variable-in-python)
++ 读取剪贴板内容：[How to read data from clipboard and pass it as value to a variable in python?](http://stackoverflow.com/questions/16188160/how-to-read-data-from-clipboard-and-pass-it-as-value-to-a-variable-in-python)
++ Windows 下 Python 的执行：[How do I make Python scripts executable?](https://docs.python.org/3/faq/windows.html#id3)
