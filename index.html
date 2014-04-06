@@ -5,23 +5,30 @@ layout: page
 
 <ul class="listing">
 {% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
   <li class="listing-item">
     <div class="listing-title">
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      &raquo;
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </div>
+    <div class="meta">
+      <span clas="time">修改 
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+      </span>
+      <span  class="time">| 创建 
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.creatdate | date:"%Y-%m-%d" }}</time>
+      </span>
+      <span class="categories">| 分类 
+        <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}</a>
+      </span>
+      <span class="author">| 作者 
+        <a href="{{ site.url }}">{{ site.author }}</a>
+      </span>
+    </div>
     {% if site.truncate %}
-      {{ post.excerpt }}
-      <a style="float:right" href="{{ post.url }}">全文 &raquo;</a>
+      <div class="excerpt">
+        {{ post.excerpt }}
+      <div>
     {% endif%}
   </li>
-  <hr>
 {% endfor %}
 </ul>
 
