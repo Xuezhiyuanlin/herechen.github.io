@@ -32,7 +32,7 @@ p{padding:.5em 0;}
 .post li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
-.content p,.content ul{margin-bottom: 18px;margin-top: 18px;}
+.post p,.post ul{margin-bottom: 18px;margin-top: 18px;}
 
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
