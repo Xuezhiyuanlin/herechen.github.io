@@ -147,3 +147,7 @@ footer a:hover {border-bottom: 1px dashed #BBB;text-decoration: none;color: #fff
 
 .displaybutton{font-family: "Microsoft YaHei";font-size: 16px;width:630px; height:30px;background: #f4f3e9;color:#980000;vertical-align: middle; cursor: pointer;}
 #instantclick-bar{background: #980000;}
+#social-icons{padding: 0px 190px;}
+#social-icons ul{margin: 0;padding: 0;display: block;height: 77px;}
+#social-icons ul li{width: 42px;height: 42px;display: block;margin: 20px;float: left;}
+#social-icons ul li img{box-shadow: 0px 0px 0px #999}

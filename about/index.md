@@ -16,7 +16,7 @@ comments: no
 
 网站：[{{ site.name }}]({{ site.url }})  
 邮箱：[{{ site.email }}](mailto:{{ site.email }})  
-GitHub : [HereChen](http://github.com/HereChen)  
+GitHub : [{{ site.github }}](http://github.com/{{ site.github }})  
 
 ### 我的项目
 
