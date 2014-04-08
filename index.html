@@ -13,13 +13,13 @@ layout: page
       <span clas="time">修改 
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       </span>
-      <span  class="time">| 创建 
+      <span  class="time">&nbsp;&nbsp;&nbsp;&nbsp;创建&nbsp;
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.creatdate | date:"%Y-%m-%d" }}</time>
       </span>
-      <span class="categories">| 分类 
+      <span class="categories">&nbsp;&nbsp;&nbsp;&nbsp;分类&nbsp;
         <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}</a>
       </span>
-      <span class="author">| 作者 
+      <span class="author">&nbsp;&nbsp;&nbsp;&nbsp;作者&nbsp; 
         <a href="{{ site.url }}">{{ site.author }}</a>
       </span>
     </div>
