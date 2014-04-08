@@ -79,6 +79,10 @@ File.read_with_options(File.join(base, name),:encoding=>"utf-8")
 
 jekyll 有一部分是关于博客信息的设置段，每次建都要重复这些复制粘贴，实在不方便。这里就有一个快速新建模板的项目，[地址](https://github.com/jsw0528/jekyll-cli)。最开始了解到这个项目则是在一篇博文上，[使用jekyll-cli快速写blog](http://jser.me/2014/03/25/%E4%BD%BF%E7%94%A8jekyll-cli%E5%BF%AB%E9%80%9F%E5%86%99blog.html)。
 
+安装命令
+
+    npm install -g jekyll-cli
+
 安装之后，可以通过下面的指令来新建模板
 
 	jkl post 我是博客模板
