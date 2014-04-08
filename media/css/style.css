@@ -141,7 +141,7 @@ footer a:hover {border-bottom: 1px dashed #BBB;text-decoration: none;color: #fff
 	vertical-align: middle;
 	text-align: center;
 }
-.paginator a,.paginator span{padding: 0 4px;margin: 2px;text-decoration: none;}
+.paginator a,.paginator span{padding: 4px 6px;margin: 2px;text-decoration: none;border: 2px solid #f4f3e9;}
 .paginator .current-page {color: white;background: #980000;}
 .paginator a:hover{color: #ffffff;background: #980000;}
 
