@@ -1,5 +1,5 @@
 ---
-date: 2014-04-06 19:04:17
+date: 2014-04-11 21:31:18
 creatdate: 2014-03-16 12:42:29
 layout: post
 title: Jekyll 博客搭建略记
@@ -8,7 +8,7 @@ categories: 方案
 tags: jekyll 软件 
 ---
 
-用 Jekyll 搭建自己的博客，再利用别人的模板，建一个博客想来还是比较简便的，况且还可以不断的自己改善。
+用 Jekyll 搭建自己的博客，利用别人的模板，建一个博客想来还是比较简便的。在环境搭建好之后只需要专注于博客布局以及内容。
 
 ###为什么选择 Jekyll
 
@@ -18,7 +18,16 @@ tags: jekyll 软件
 
 ###要点提要
 
-在本地安装 Jekyll 及其配套工具，再注册 GitHub 账号，本地编辑，并将内容上传到 GitHub，用 GitHub 的服务器和域名。关于工具的安装和配置不作细致描述。
+在本地安装 Jekyll 及其配套工具，再注册 GitHub 账号，本地编辑，并将内容上传到 GitHub，用 GitHub 的服务器和域名。基本的流程可以是这样的：
+
+1. 下载工具 Ruby、Git、DevKit。
+2. 建立 DevKit 和 Ruby 之间的依赖关系 （依赖第1步）。
+3. 通过 Ruby 下载 jekyll （依赖第1步）。
+4. 注册 GitHub 账号，在 GitHub 上创建一个库。
+5. 配置 ssh。（依赖第4步）
+6. 链接本地和 GitHub 的库，开始建博客，最后提交。
+
+剩下的细节根据后面的具体描述逐步来做就行了。关于环境搭建在本文末尾一篇 jekyll 安装文章中描述的比较详细。
 
 ###环境与工具
 
@@ -28,6 +37,8 @@ DevKit：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/download
 git：[http://git-scm.com/downloads](http://git-scm.com/downloads)  
 Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
+<hr><hr>
+
 ###GitHub
 
 注册一个 [GitHub](https://github.com/) 账号，并新建一个 respository，用来放博客。
@@ -36,6 +47,28 @@ Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
 - master 和 gh-pages：在 git 中用到，后者是作为项目主页。
 - ssh 和 https：用后者每次提交需要输入密码，前者需要配置 ([查看](http://www.blogways.net/blog/2013/04/10/generating-ssh-keys-4-github.html))。 两者对应的 remote add 方式不同，前者为 git@github.com:XXXX/YYYY.git，后者为 https://github.com/XXXX/YYYY.git。ssh 方式时 respository 可以建为 XXXX.github.io。 
+
+###DevKit 配置
+
+- 解压下载的 DevKit，通过 CMD 或者 Git Bash 执行，`cd DevKitPath` ，`DevKitPath` 表示  DevKit 的路径，需要修改。
+- 初始化 `ruby dk.rb init`。
+- 打开文件夹中的 config.yml，在最后一行添加 `- C:\Program\Ruby`。  
+- 在 CMD 中执行命令 `ruby dk.rb install`。
+
+###安装 jekyll
+
+- 安装 `gem install jekyll`  。
+- 卸载 `gem uninstall jekyll`。    
+- 在建好博客后，可以通过本地预览效果，命令是 `jekyll server`。
+
+###ssh 配置
+
+配置步骤如下
+
+1. 在用户目录（比如：`C:/User/HereChen`）新建 `.ssh` 文件夹，或者通过 `mkdir .ssh` 创建。
+2. `cd .ssh`，并执行 `ssh-keygen -t rsa -C "your_email@example.com"`。
+3. 连续三次回车，可以不用输入内容。第一次是指写入的文件名，默认为 `id_rsa`，后两次为密码。
+4. 将 `.pub` 后缀文件中的内容复制出来，登陆 GitHub，找到页顶的设置项，然后设置其中的 ssh 项，添加刚才复制的内容。
 
 ###git 指令
 
@@ -55,25 +88,33 @@ Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
     git add .  
     git commit -m "XXXX"  
     git push -u origin master  
-    jekyll server // 本地预览
 
 ###中文错误
 
-jekyll server 本地查看可能会出现 GBK 错误。更改 Ruby 目录中的文件 convertible.rb，我的路径是 C:\Program\Ruby\lib\ruby\gems\2.0.0\gems\jekyll-1.4.2\lib\jekyll。原来的是  File.read_with_options(File.join(base, name),merged_file_read_opts(opts))  
-更改后  
-File.read_with_options(File.join(base, name),:encoding=>"utf-8")  
+jekyll server 本地查看可能会出现 GBK 错误。更改 Ruby 目录中的文件 `convertible.rb`，我的路径是
+
+    C:\Program\Ruby\lib\ruby\gems\2.0.0\gems\jekyll-1.4.2\lib\jekyll
+
+原来的文件内内容是
+
+    File.read_with_options(File.join(base, name),merged_file_read_opts(opts)) 
+
+更改后为
+
+    File.read_with_options(File.join(base, name),:encoding=>"utf-8")  
 
 由于版本不同,语句上会存在一定一些差异，未必完全一样。
 
 ###网站分析
 
 网站分析，目的在于了解网站的访问情况，此博客使用的是 [Google Analytics](https://www.google.com/intl/zh-CN/analytics/)。
-
-注册后，将里面的 script 拷贝到 default.html 模板的 body 标签结束前即可。可以在本页的源码结尾处看到，每个账号自然是不一样的，不要胡乱拷贝啊....同学。
+注册后，将里面的 script 拷贝到 default.html 模板的 body 标签结束前即可。
 
 ###评论与分享
 
-本站使用的是说多的评论，同样，注册一个 [duoshuo](http://duoshuo.com/) 账号，然后然后会有一个对应的 script。也可以用[友言](http://www.uyan.cc/)作为社交评论。至于社交分享，可以使用[加网](http://www.jiathis.com)。
+本站使用的是说多的评论，同样，注册一个 [duoshuo](http://duoshuo.com/) 账号，然后然后会有一个对应的 script。也可以用[友言](http://www.uyan.cc/)作为社交评论。至于社交分享，可以使用[加网](http://www.jiathis.com)。另外，百度也提供了一套数据分析以及分享等脚本，可在[百度分享](http://share.baidu.com)获得。
+
+<hr><hr>
 
 ###快速创建一个博客模板
 
@@ -93,10 +134,20 @@ jekyll 有一部分是关于博客信息的设置段，每次建都要重复这�
 
 仅仅这样还不够，因为这样只有默认的几项参数包含在模板内，于是我更改了其中的 `post.js` 对应内容。
 
+###重装系统之后要做的
+
+重装系统之后大概需要做三件事情
+
+- 环境搭建
+- ssh 配置
+- 将博客 pull 下来（git pull）。
+
+对于环境搭建部分，在重装前如果能够直接将 Ruby 打包就更加方便，只需要解压和配置，剩去了一些下载和可能的问题。如果 DevKit 没有直接打包并在系统重装后解压，需要重新建立依赖关系。
+
 ###扩展阅读及参考
 
-博客搭建入门：[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
-git 指令：[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)  
-中文乱码：[Jekyll在Windows下面中文编码问题解决方案](http://www.cnblogs.com/aleda/articles/Jekyll-in-Windows-following-Chinese-encoding-problem-solutions.html)  
-
-一些功能引用在网站的**关于**中的资源引用有说明。
+- 博客搭建入门：[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)  
+- git 指令：[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)  
+- 中文乱码：[Jekyll在Windows下面中文编码问题解决方案](http://www.cnblogs.com/aleda/articles/Jekyll-in-Windows-following-Chinese-encoding-problem-solutions.html)    
+- 环境搭建：[jekyll安装与应用](http://www.cnblogs.com/BeginMan/p/3549241.html)  
+- DevKit 配置：[Development Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
