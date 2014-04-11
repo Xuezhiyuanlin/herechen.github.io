@@ -26,7 +26,7 @@ body{font-size:14px;
 a{color:#980000;text-decoration:none;}
 a:hover{color:#dd0000;text-decoration:none;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
-.excerpt{margin-bottom: 20px;}
+.excerpt{margin-bottom: 30px;}
 .listing p{line-height: 24px;margin: 0; padding: 0;}
 .post li{padding:0;}
 ol,ul{list-style-position:inside;}
