@@ -37,7 +37,7 @@ DevKit：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/download
 git：[http://git-scm.com/downloads](http://git-scm.com/downloads)  
 Jekyll：[http://jekyllrb.com/](http://jekyllrb.com/)
 
-<hr><hr>
+<hr>分割线<hr>
 
 ###GitHub
 
@@ -114,7 +114,7 @@ jekyll server 本地查看可能会出现 GBK 错误。更改 Ruby 目录中的�
 
 本站使用的是说多的评论，同样，注册一个 [duoshuo](http://duoshuo.com/) 账号，然后然后会有一个对应的 script。也可以用[友言](http://www.uyan.cc/)作为社交评论。至于社交分享，可以使用[加网](http://www.jiathis.com)。另外，百度也提供了一套数据分析以及分享等脚本，可在[百度分享](http://share.baidu.com)获得。
 
-<hr><hr>
+<hr>分割线<hr>
 
 ###快速创建一个博客模板
 
