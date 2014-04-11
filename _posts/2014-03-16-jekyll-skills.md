@@ -151,3 +151,4 @@ jekyll 有一部分是关于博客信息的设置段，每次建都要重复这�
 - 中文乱码：[Jekyll在Windows下面中文编码问题解决方案](http://www.cnblogs.com/aleda/articles/Jekyll-in-Windows-following-Chinese-encoding-problem-solutions.html)    
 - 环境搭建：[jekyll安装与应用](http://www.cnblogs.com/BeginMan/p/3549241.html)  
 - DevKit 配置：[Development Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit)
+- SSH 配置：[generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys)
