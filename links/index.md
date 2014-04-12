@@ -16,7 +16,7 @@ Seeksky：[http://xujinlai.tk/](http://xujinlai.tk/)
 
 知乎：[http://www.zhihu.com/](http://www.zhihu.com/)  
 Quora：[https://www.quora.com/](https://www.quora.com/)  
-MATLAB 中文论坛：[http://www.ilovematlab.cn/](http://www.ilovematlab.cn/)
+MATLAB 中文论坛：[http://www.ilovematlab.cn/](http://www.ilovematlab.cn/?fromuid=465970)
 
 ###学习工具
 
