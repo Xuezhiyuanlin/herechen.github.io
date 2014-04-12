@@ -30,7 +30,7 @@ GitHub : [HereChen](http://github.com/HereChen)
 
 ### 资源引用
 
-博客框架：[Yonsm.NET](http://yonsm.net/)  
+博客模板：[Yonsm.NET](http://yonsm.net/)  
 RSS 订阅：[georgemandis](https://github.com/snaptortoise/jekyll-rss-feeds)  
 页面预加载：[InstantClick](http://instantclick.io/start.html)  
 代码高亮：[google-code-prettify](http://code.google.com/p/google-code-prettify/)  

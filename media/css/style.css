@@ -38,8 +38,9 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 
 .container{
-	max-width: 770px;
 	min-width: 400px;
+	max-width: 1000px;
+	width: 55%;
 	margin:0 auto;
 	display:block;
 	position: relative;
@@ -75,7 +76,7 @@ header a{font-family: serif;font-size: 30px;color: #ffffff;}
 
 .nav{font-family:"Electrolize",sans-serif;font-size: 14px;height: 30px;text-transform:uppercase;background-color: #980000;}
 .nav ul{margin: 0;padding: 0;line-height: 30px;list-style: none;background: #980000;}
-.nav li{float:left;width: 110px;height: 30px;}
+.nav li{float:left;width: 12.5%;height: 30px;}
 .nav a{display:block;color:#ffffff;text-align: center;}
 .nav a:hover{background-color:#ffffff;text-decoration:none;color:#980000;}
 
@@ -144,9 +145,9 @@ footer a:hover {border-bottom: 1px dashed #BBB;text-decoration: none;color: #fff
 .paginator .current-page {color: white;background: #980000;}
 .paginator a:hover{color: #ffffff;background: #980000;}
 
-.displaybutton{font-family: "Microsoft YaHei";font-size: 16px;width:630px; height:30px;background: #f4f3e9;color:#980000;vertical-align: middle; cursor: pointer;}
+.displaybutton{font-family: "Microsoft YaHei";font-size: 16px;width:100%; height:30px;background: #f4f3e9;color:#980000;vertical-align: middle; cursor: pointer;}
 #instantclick-bar{background: #980000;}
-#social-icons{padding: 0px 190px;}
+
 #social-icons ul{margin: 0;padding: 0;display: block;height: 77px;}
-#social-icons ul li{width: 42px;height: 42px;display: block;margin: 20px;float: left;}
+#social-icons ul li{width: 33%;height: 42px;display: block;float: left;}
 #social-icons ul li img{box-shadow: 0px 0px 0px #999}
