@@ -46,7 +46,7 @@ blockquote p{margin:0;padding:.5em 0;}
 	position: relative;
 	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
-	background-color:#fff;
+	background-color:#ffffff;
 }
 .content{font-size:14px;padding: 30px 70px;line-height:2em;display: block;position: relative;}
 .content img{max-width:100%;display:block;margin:4px auto;}
@@ -66,14 +66,14 @@ blockquote p{margin:0;padding:.5em 0;}
 .pageNavRight,.pageNavInvalidRight{float: right;}
 
 header{padding:35px 40px 25px 40px;display: block;position:relative;background: #980000;}
-header a{font-family: serif;font-size: 30px;color: #fff;}
+header a{font-family: serif;font-size: 30px;color: #ffffff;}
 .logo{top: 25px;right:30px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
 
 .nav{font-family:"Electrolize",sans-serif;font-size: 14px;height: 30px;text-transform:uppercase;background-color: #980000;}
 .nav ul{margin: 0;padding: 0;line-height: 30px;list-style: none;background: #980000;}
 .nav li{float:left;width: 12.5%;height: 30px;}
-.nav a{display:block;color:#fff;text-align: center;}
-.nav a:hover{background-color:#fff;text-decoration:none;color:#980000;}
+.nav a{display:block;color:#ffffff;text-align: center;}
+.nav a:hover{background-color:#ffffff;text-decoration:none;color:#980000;}
 
 h1,h2,h3,h4{font-family:"telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;}
 h1{font-size:1.6em;color:#000;}
@@ -108,7 +108,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 .label {
 	font-size:11.25px;
 	font-weight:700;
-	color:#fff;
+	color:#ffffff;
 	text-transform:uppercase;
 	background-color:#999;
 	-webkit-border-radius:3px;
@@ -133,7 +133,7 @@ embed,object,iframe{display:block;margin:4px auto;}
 }
 .paginator a,.paginator span{padding: 4px 6px;margin: 2px;text-decoration: none;border: 2px solid #f4f3e9;}
 .paginator .current-page {color: white;background: #980000;}
-.paginator a:hover{color: #fff;background: #980000;}
+.paginator a:hover{color: #ffffff;background: #980000;}
 .displaybutton{font-family: "Microsoft YaHei";font-size: 16px;width:100%; height:30px;background: #f4f3e9;color:#980000;vertical-align: middle; cursor: pointer;}
 #instantclick-bar{background: #980000;}
 footer{height: 45px;text-align:center;display:block;background: #980000;}
