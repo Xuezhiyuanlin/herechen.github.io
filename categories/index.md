@@ -9,17 +9,23 @@ layout: page
 {% endfor %}
 </div>
 
-<ul class="listing">
-{% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
-{% for post in cat[1] %}
-  <li class="listing-item">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-{% endfor %}
-</ul>
+<div class="listing">
+  <ul>
+  {% for cat in site.categories %}
+  <div class="listing-classify">
+    <li class="listing-classify-tag" id="{{ cat[0] }}">{{ cat[0] }}</li>
+    <div class="listing-classify-post">
+    {% for post in cat[1] %}
+    <li>
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  </ul>
+</div>
 
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">

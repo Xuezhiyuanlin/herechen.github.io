@@ -3,34 +3,36 @@ title: 夕阳西下陈 天天向尚磊
 layout: page
 ---
 
-<ul class="listing">
-{% for post in paginator.posts %}
-  <li class="listing-item">
-    <div class="listing-title">
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </div>
-    <div class="meta">
-      <span clas="time">修改 
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      </span>
-      <span  class="time">&nbsp;|&nbsp;创建&nbsp;
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.creatdate | date:"%Y-%m-%d" }}</time>
-      </span>
-      <span class="categories">&nbsp;|&nbsp;分类&nbsp;
-        <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}</a>
-      </span>
-      <span class="author">&nbsp;|&nbsp;作者&nbsp; 
-        <a href="{{ site.url }}">{{ site.author }}</a>
-      </span>
-    </div>
-    {% if site.truncate %}
-      <div class="excerpt">
-        {{ post.excerpt }}
-      <div>
-    {% endif%}
-  </li>
-{% endfor %}
-</ul>
+<div class="listing">
+  <ul>
+  {% for post in paginator.posts %}
+    <li class="listing-item">
+      <div class="listing-title">
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </div>
+      <div class="meta">
+        <span clas="time">修改 
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        </span>
+        <span  class="time">&nbsp;|&nbsp;创建&nbsp;
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.creatdate | date:"%Y-%m-%d" }}</time>
+        </span>
+        <span class="categories">&nbsp;|&nbsp;分类&nbsp;
+        <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}  </a>
+        </span>
+        <span class="author">&nbsp;|&nbsp;作者&nbsp; 
+          <a href="{{ site.url }}">{{ site.author }}</a>
+        </span>
+      </div>
+      {% if site.truncate %}
+        <div class="excerpt">
+          {{ post.excerpt }}
+        <div>
+      {% endif%}
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
 <div id="post-pagination" class="paginator">
 
