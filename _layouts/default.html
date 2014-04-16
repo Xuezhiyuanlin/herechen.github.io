@@ -37,14 +37,14 @@
         </ul>
       </div>
 
-      <div class="content" data-no-instant>
+      <div class="content" data-no-instant="">
         {{ content }}
       </div>
 
       <footer>
         <div id="social-icons">
           <ul>
-            <li><a href="https://github.com/HereChen"><img src="/assets/github-icon-small-white.png"></a></li>
+            <li><a href="https://github.com/{{site.author }}"><img src="/assets/github-icon-small-white.png"></a></li>
             <li><a href="http://weibo.com/u/{{ site.weibo }}"><img src="/assets/sina-icon-small-white.png"></a></li>
             <li><a href="http://{{ site.qq }}.qzone.qq.com"><img src="/assets/qqzone-icon-small-white.png"></a></li>
             <li><a href="{{ site.email }}"><img src="/assets/email-icon-small-white.png"></a></li>
@@ -79,7 +79,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-48539473-1', 'herechen.github.io');
+      ga('create', '{{ site.analytics }}', '{{ site.url }}');
       ga('send', 'pageview');
     </script>
 

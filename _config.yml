@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:title/				# 固定链接
-url: http://herechen.github.io	# 网站链接 
+url: herechen.github.io			# 网站链接 
 name: 夕阳西下陈 天天向尚磊 	# 网站名
 author: HereChen				# 作者
 cnname: 陈 磊                   # 中文作者名
@@ -11,5 +11,6 @@ qq: 1737090943					# QQ账号
 github: HereChen   				# GitHub帐号 
 safe: true         				# 安全模式
 paginate: 10					# 20 首页分页
+analytics: UA-48539473-1 		# GoogleAnalytics
 quote: "I do not want to survive. I want to live." # 喜欢的话
 truncate: yes
