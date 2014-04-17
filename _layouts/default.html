@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+    <meta name="author" content="{{ site.author }}"></meta>
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{% endunless %}{{ page.title }}{% endif %}
     </title>
-    <link rel="shortcut icon" href="/assets/logo.jpg" />
-    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/style.css" />
-    <link rel="stylesheet" href="/media/css/highlight.css" />
-    <link rel="stylesheet" type="text/css" href="/media/css/prettify.css" />
+    <link rel="shortcut icon" href="/assets/logo.jpg"></link>
+    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml"></link>
+    <link rel="stylesheet" href="/media/css/style.css"></link>
+    <link rel="stylesheet" href="/media/css/highlight.css"></link>
+    <link rel="stylesheet" href="/media/css/font-awesome.css"></link>
+    <link rel="stylesheet" type="text/css" href="/media/css/prettify.css"></link>
 
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     <!--代码高亮-->
@@ -37,9 +38,9 @@
         </ul>
       </div>
 
-      <section class="content" data-no-instant="">
+      <article class="content" data-no-instant="">
         {{ content }}
-      </section>
+      </article>
 
       <footer>
         <div id="social-icons">
