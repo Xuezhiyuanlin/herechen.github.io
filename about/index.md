@@ -16,7 +16,7 @@ comments: no
 
 ### 联系方式
 
-网站：[{{ site.name }}]({{ site.url }})  
+网站：[{{ site.name }}](http://{{ site.url }})  
 邮箱：[{{ site.email }}](mailto:{{ site.email }})  
 GitHub : [HereChen](http://github.com/{{ site.author }})  
 

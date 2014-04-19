@@ -52,7 +52,7 @@ header h1 a{font-size: 30px;font-weight:300;color: #ffffff;padding: 10px 0px;}
 .content img{max-width:100%;display:block;margin:4px auto;}
 /*paginator*/
 .paginator {color:#999999;margin: 20px 0;line-height: 150%;display: block;margin-left: auto;margin-right: auto;vertical-align: middle;text-align: center;}
-.paginator a,.paginator span{padding: 4px 6px;margin: 2px;text-decoration: none;}
+.paginator a,.paginator span{padding: 3px 8px;margin: 2px;text-decoration: none;}
 .paginator .current-page {color: white;background: #980000;}
 .paginator a:hover{color: #ffffff;background: #980000;}
 /*page*/
