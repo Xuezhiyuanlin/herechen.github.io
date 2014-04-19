@@ -13,6 +13,7 @@ body{font-size:14px;
 header,footer,.nav,#instantclick-bar{background: #980000;}
 body,.displaybutton,.meta{background: #eee;}
 /*custom*/
+h1,h2,h3,h4{font-weight: 400;}
 h1{font-size:1.6em;}
 .content h1{text-align: center;padding:.5em 0;}
 h2{font-size:1.4em;line-height:46px;}
@@ -38,7 +39,7 @@ p,ul{margin-bottom: 14px;margin-top: 14px;}
 }
 /*header*/
 header{padding:30px;display: block;position:relative;}
-header h1 a{font-size: 30px;color: #ffffff;padding: 10px 0px;}
+header h1 a{font-size: 30px;font-weight:300;color: #ffffff;padding: 10px 0px;}
 .logo{top: 20px;right:30px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
 /*navigation*/
 .nav{font-size: 14px;height: 30px;text-transform:uppercase;}
