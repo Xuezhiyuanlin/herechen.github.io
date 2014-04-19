@@ -13,7 +13,7 @@ body{font-size:14px;
 header,footer,.nav,#instantclick-bar{background: #980000;}
 body,.displaybutton,.meta{background: #eee;}
 /*custom*/
-h1,h2,h3,h4{font-weight: 400;}
+h1,h2,h3,h4{font-weight: bold;}
 h1{font-size:1.6em;}
 .content h1{text-align: center;padding:.5em 0;}
 h2{font-size:1.4em;line-height:46px;}
