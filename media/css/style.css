@@ -38,7 +38,7 @@ p,ul{margin-bottom: 14px;margin-top: 14px;}
 }
 /*header*/
 header{padding:30px;display: block;position:relative;}
-header h1 a{font-family: 'Ubuntu';font-size: 30px;color: #ffffff;padding: 10px 0px;}
+header h1 a{font-size: 30px;color: #ffffff;padding: 10px 0px;}
 .logo{top: 20px;right:30px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
 /*navigation*/
 .nav{font-size: 14px;height: 30px;text-transform:uppercase;}
