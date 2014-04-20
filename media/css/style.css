@@ -7,11 +7,12 @@ body{font-size:14px;
 	font-family: 'Ubuntu', Arial, "libra sans", sans-serif;
 	font-weight: 300;
 	color:#333;
+	background: #eee;
 }
 *{padding:0;margin: 0;border:none;outline:none;}
 /*color*/
 header,footer,.nav,#instantclick-bar{background: #980000;}
-body,.displaybutton,.meta{background: #eee;}
+.displaybutton,.meta{background: #eee;}
 /*custom*/
 h1,h2,h3,h4{font-weight: bold;}
 h1{font-size:1.6em;}
@@ -33,9 +34,8 @@ p,ul{margin-bottom: 14px;margin-top: 14px;}
 	margin:0 auto;
 	display:block;
 	position: relative;
-	-moz-box-shadow: 0 0 10px 0 #cfcfcf;
-    -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
 	background-color:#ffffff;
+	background:#fff url("/assets/paper.png") repeat center top;
 }
 /*header*/
 header{padding:30px;display: block;position:relative;}
