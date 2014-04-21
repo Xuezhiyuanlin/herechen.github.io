@@ -17,7 +17,7 @@ header,footer,.nav,#instantclick-bar{background: #980000;}
 .displaybutton,.meta{background: #eee;}
 /*custom*/
 h1,h2,h3,h4{font-weight: 400; color: #980000;}
-h2,h3,h4{margin: 20px 0px;}
+h2,h3,h4{margin: 25px 0px 15px 0px;border-bottom: 1px solid silver;}
 h1{font-size:1.6em;}
 .content h1{text-align: center;padding:.5em 0;}
 h2{font-size:1.4em;}
