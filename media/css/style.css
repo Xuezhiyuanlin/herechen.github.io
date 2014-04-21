@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 body{font-size:14px;
 	word-spacing:1px;
 	padding: 0;
@@ -86,6 +87,7 @@ blockquote{display:block;text-align:justify;border-left:4px solid #999999;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 /* code */
+code,pre{font-family: 'Ubuntu Mono', monospace;}
 pre{overflow: auto;margin:1em 0;font-size:13px;line-height:1.5;}
 .content li code,.content p code,.content table code {
 	color: #4d4d4d;
