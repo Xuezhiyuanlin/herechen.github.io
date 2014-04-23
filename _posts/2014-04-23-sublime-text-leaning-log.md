@@ -104,8 +104,6 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 
 	doskey subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $*
 
-	html>head+body>header+.main+footer
-
 ##对一串字符插入一对括号
 
 选中字符串, Shift + ( 即可插入括号
@@ -113,6 +111,10 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 ##Emmet 插件 - 快速代码补齐
 
 这是一个很棒的插件,用于前端开发的,前身叫 Zencode.比如输入下面的语句,并在结尾时按下 tab 键.
+
+	html>head+body>header+.main+footer
+
+	ul>li[list="none"]{nothing}*4
 
 ##Gist 插件 - 管理代码片段
 
