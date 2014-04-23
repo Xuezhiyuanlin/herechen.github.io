@@ -29,7 +29,6 @@ tags: sublime text
 ##Command Palette
 
 1. 通过 Command Palette 可以安装插件，执行快捷方式，快捷设置高亮等。
-
 2. 安装插件：Ctrl + Shift + P ，选中 Install Package 回车，稍等片刻，在此 Ctrl + Shift + P 搜索插件并安装, 卸载 remove...  
 
 ##快捷输入 Snippets, 自动补齐
@@ -121,16 +120,8 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 
 1. 安装 Gist 插件
 2. 在 Github gist 账户下生成 token [https://github.com/settings/applications](https://github.com/settings/applications)
-3. 复制 token,并在 Sublime Package Settings 设置 gist settings - user 
-
-```
-	{
-		"token": "",
-	}
-```
-
+3. 复制 token,并在 Sublime Package Settings 设置 gist settings - user: `{ "token": "",}`
 4. 选中代码创建 gist,不选中,则默认是当前文件.可以通过右键创建,也可以通过 Ctrl + Shift + P 查找 Gist 创建.可以不用输入参数,输入参数第一项是描述,第二项是文件名.
-
 5. 需要查看 Gist 时,通过 Ctrl + Shift + P 搜索 open gist 即可.
 
 ##PlainTask 插件 - 任务管理
