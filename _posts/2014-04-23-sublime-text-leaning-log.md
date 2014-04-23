@@ -3,7 +3,7 @@ date: 2014-04-23 12:43:32
 creatdate: 2014-04-23 12:43:25
 layout: post
 title: Sublime Text Leaning Log
-categories: tool
+categories: tools
 tags: sublime text
 ---
 
