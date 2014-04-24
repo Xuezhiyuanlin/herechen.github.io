@@ -9,7 +9,34 @@ tags: sublime text
 
 这是我的 Sublime Text 学习日志. 当前处于更新当中.除了开始的搜索引擎搜索学到的,最主要的学习途径是视频学习.这里推荐两个不错的视频集: Perfect Workflow in Sublime Text 和 Up and Running with Sublime Text.
 
-##快捷键
+<!-- MarkdownTOC depth=2 -->
+
+- 快捷键
+- Command Palette
+- User Settings 和 Default Settings
+- 工程(project)
+- 快捷输入 Snippets, 自动补齐
+- 组间宽度
+- 正则表达式搜索
+- Vintage模式
+- Copy 路径和文件名
+- 编译设置
+- 对一串字符插入一对括号
+- 在 cmd 中用 Sublime 打开文件 (未实践)
+- 鼠标右键用 Sublime 打开文件夹 - 保存为 reg (未实践)
+- 在当前文件路径下打开cmd
+- Ctrl + Alt + O 打开当前文件文件夹 - Key Bindings User
+- 字体设置 - Setting User
+- Emmet 插件 - 快速代码补齐
+- Gist 插件 - 管理代码片段
+- PlainTask 插件 - 任务管理
+- Markdown 编辑和预览
+- 插件推荐
+
+<!-- /MarkdownTOC -->
+
+
+## 快捷键
 
 0. 所有快捷键在 Key Bindings Default 中都有
 1. Ctrl + Shift + L 选中多行，可以同时编辑这些行
@@ -32,16 +59,16 @@ tags: sublime text
 18. Ctrl + Shift + 1/2 当前窗口切换到第 1/2 组
 19. Ctrl + K, Ctrl + Left/Right 组之间的切换
  
-##Command Palette
+## Command Palette
 
 1. 通过 Command Palette 可以安装插件，执行快捷方式，快捷设置高亮等。
 2. 安装插件：Ctrl + Shift + P ，选中 Install Package 回车，稍等片刻，在此 Ctrl + Shift + P 搜索插件并安装, 卸载 remove...  
 
-##User Settings 和 Default Settings
+## User Settings 和 Default Settings
 
 改变设置尽量不要修改 Default 设置,可以在 User 中修改.这样可以使 User 中的设置覆盖原来的设置.
 
-##工程(project)
+## 工程(project)
 
 将一个工程保存为工程(Project->Save Project As),这样只需要修改工程的配置文件,就可以改变工程中文件的显示(字体、行距等)、过滤侧边栏显示的文件.同时可以快捷的在工程之间切换,快捷键是 Ctrl + Alt + P.这样就可以专注几个关注的文件.下面的示例表示显示 Log 文件夹下的文件,但是不显示 css 文件.
 
@@ -55,7 +82,7 @@ tags: sublime text
 		]
 	}
 
-##快捷输入 Snippets, 自动补齐
+## 快捷输入 Snippets, 自动补齐
 
 Snippets 通过 Ctrl + Shift + P 输入 snippet: .这个功能类似自动补齐.可以自定义内容,通过某个输入来触发需要输入.也可以通过安装包来实现.
 
@@ -72,7 +99,7 @@ Snippets 通过 Ctrl + Shift + P 输入 snippet: .这个功能类似自动补齐
 		<!-- <scope>source.python</scope> -->
 	</snippet>
 
-##组间宽度
+## 组间宽度
 
 当有多个组的时候,并且希望正在操作的一个组宽度更大,那么可以在 User 中设置快捷方式来实现.下面设置了 Shift + Alt + Left 和 Shift + Alt + Right 一对快捷. 如果需要等宽的组,那么直接使用 Shift + Alt + 2 来实现.
 
@@ -97,13 +124,13 @@ Snippets 通过 Ctrl + Shift + P 输入 snippet: .这个功能类似自动补齐
 		}
 	},
 
-##正则表达式搜索
+## 正则表达式搜索
 
 通过正则表达式搜索满足特定条件的字符串来选中,然后修改,比如设置 title case. 
 
 Ctrl + I, 然后 Alt + R 进入正则表达式搜索, 高亮匹配后, 通过过 Alt + Enter 全选高亮项. 比如：输入 `##.+` 将选中 ## 开始直到行末的字符串.
 
-##Vintage模式
+## Vintage模式
 
 这是一种 vi 模式, 可以全键盘操作了.默认下 windows 上禁用的.在 User 设置中可以启用.
 
@@ -111,11 +138,11 @@ Ctrl + I, 然后 Alt + R 进入正则表达式搜索, 高亮匹配后, 通过过
 	    "ignored_packages": []
 	}
 
-##Copy 路径和文件名
+## Copy 路径和文件名
 
 Ctrl + Shift + P 输入 copy 可以复制当前文件的路径、当前文件所在工程的相对路径、以及复制为标签 a.
 
-##编译设置
+## 编译设置
 
 自定义一个编译设置,Tools->Build System->New Build System.下面这是一个用 gcc 设置的 C 语言编译设置. gcc 编译形式为 `gcc filename.c -o filename`, 这里的功能同时实现了编译并运行(Ctrl + Shift + B).若需要简洁一点,那么仅需要保留第一行即可.这里有一些参数可以查看[build_systems](http://sublimetext.info/docs/en/reference/build_systems.html).
 
@@ -136,17 +163,17 @@ Ctrl + Shift + P 输入 copy 可以复制当前文件的路径、当前文件所
 		]
 	}
 
-##对一串字符插入一对括号
+## 对一串字符插入一对括号
 
 选中字符串, Shift + ( 即可插入括号
 
-##在 cmd 中用 Sublime 打开文件 (未实践)
+## 在 cmd 中用 Sublime 打开文件 (未实践)
 
 [http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7)
 
 	doskey subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $*
 
-##鼠标右键用 Sublime 打开文件夹 - 保存为 reg (未实践)
+## 鼠标右键用 Sublime 打开文件夹 - 保存为 reg (未实践)
 
 [为文件夹添加右键菜单直接由Sublime Text2打开](http://www.panwenbin.com/2013/11/17/%e4%b8%ba%e6%96%87%e4%bb%b6%e5%a4%b9%e6%b7%bb%e5%8a%a0%e5%8f%b3%e9%94%ae%e8%8f%9c%e5%8d%95%e7%9b%b4%e6%8e%a5%e7%94%b1sublime-text2%e6%89%93%e5%bc%80/)
 
@@ -157,7 +184,7 @@ Ctrl + Shift + P 输入 copy 可以复制当前文件的路径、当前文件所
 	[HKEY_CLASSES_ROOT\Directory\shell\Open with SubLime Text 2\Command]
 	@="C:\\Program Files\\Sublime Text 2\\sublime_text.exe -n \"%1\""
 
-##在当前文件路径下打开cmd
+## 在当前文件路径下打开cmd
 
 [http://stackoverflow.com/questions/12103028/sublime-text-2-open-cmd-prompt-at-current-or-project-directory-windows#12175413](http://stackoverflow.com/questions/12103028/sublime-text-2-open-cmd-prompt-at-current-or-project-directory-windows#12175413)
 
@@ -184,17 +211,17 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 
 	{ "keys": ["alt+c"], "command": "cmd"}
 
-##Ctrl + Alt + O 打开当前文件文件夹 - Key Bindings User
+## Ctrl + Alt + O 打开当前文件文件夹 - Key Bindings User
 
 	{ "keys": ["ctrl+alt+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }
 
-##字体设置 - Setting User
+## 字体设置 - Setting User
 
 	// "font_face": "Ubuntu mono"
 	// "font_face": "Courier New"
 	"font_face": "Consolas"
 
-##Emmet 插件 - 快速代码补齐
+## Emmet 插件 - 快速代码补齐
 
 这是一个很棒的插件,用于前端开发的,前身叫 Zencode.比如输入下面的语句,并在结尾时按下 tab 键.
 
@@ -202,7 +229,7 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 
 	ul>li[list="none"]{nothing}*4
 
-##Gist 插件 - 管理代码片段
+## Gist 插件 - 管理代码片段
 
 [https://github.com/condemil/Gist#generating-access-token](https://github.com/condemil/Gist#generating-access-token) 这是一个让人 "哇哦" 的插件.
 
@@ -212,7 +239,7 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 4. 选中代码创建 gist,不选中,则默认是当前文件.可以通过右键创建,也可以通过 Ctrl + Shift + P 查找 Gist 创建.可以不用输入参数,输入参数第一项是描述,第二项是文件名.
 5. 需要查看 Gist 时,通过 Ctrl + Shift + P 搜索 open gist 即可.
 
-##PlainTask 插件 - 任务管理
+## PlainTask 插件 - 任务管理
 
 [https://github.com/aziz/PlainTasks](https://github.com/aziz/PlainTasks) 可用于创建日程管理或者任务管理.
 
@@ -224,11 +251,11 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 6. 输入 `---` 然后 tab 键分割.
 7. 如果存在标志乱码或者显示不正常,可以到 Package Settings 设置 Plain Task 的 Settings Default.
 
-##Markdown 编辑和预览
+## Markdown 编辑和预览
 
 通过插件 Markdown Extended 来达到增强的 Markdown 显示效果,通过 Markdown Preview 来达到浏览器中的预览效果,编译成 HTML 的快捷是 Ctrl + B,预览的快捷是 Alt + M.
 
-##插件推荐
+## 插件推荐
 
 0. Package Control 插件包管理器.
 1. Prefixr 对代码提前修正(css).
@@ -243,5 +270,5 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 10. Gist Github gist 的本地化管理,直接上传和查看服务器上的gist.
 11. DocBlockr [https://github.com/spadgos/sublime-jsdocs](https://github.com/spadgos/sublime-jsdocs) 文档写作,可以便捷的写注释,比如通过识别函数的参数在写注释的时候通过 tab 更加快捷的补充注释.支持的语言有 JavaScript, PHP, ActionScript, CoffeeScript, TypeScript, Java, Groovy, Objective C, C, C++ and Rust.
 12. PlainTask 任务管理.
-13. LiveReload 结合 Chrome 插件可以实现在编辑保存网页文件时,实时预览网页效果..
+13. LiveReload 结合 Chrome 插件可以实现在编辑保存网页文件时,实时预览网页效果.
 
