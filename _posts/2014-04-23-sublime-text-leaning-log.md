@@ -202,11 +202,6 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 
 	ul>li[list="none"]{nothing}*4
 
-##Git 插件
-
-本打算直接写个脚本,然后通过设置编译的方式实现快捷提交,但是始终无法 push 成功.
-于是下载 Git 插件暂时作为替代.
-
 ##Gist 插件 - 管理代码片段
 
 [https://github.com/condemil/Gist#generating-access-token](https://github.com/condemil/Gist#generating-access-token) 这是一个让人 "哇哦" 的插件.
