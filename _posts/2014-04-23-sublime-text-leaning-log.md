@@ -287,4 +287,5 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 12. PlainTask 任务管理.
 13. LiveReload 结合 Chrome 插件可以实现在编辑保存网页文件时,实时预览网页效果.
 14. MarkdownTOC 插入 Markdown 文件目录.
+15. Git 这个插件用来 git add 和 git commit 目前都没问题,就是 git push 目前怎么也没成功,但是 commit 之后可以查看变化,比较方便.(注:commit 之后输入 commit 名称然后关闭即可)
 
