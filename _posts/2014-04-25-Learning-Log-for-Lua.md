@@ -270,21 +270,21 @@ tags: 语言 Lua
 
 83. 文件读取
 	
-	-- 逐行读取并链接
-	lcoal buff = ""
-	for line in io.lines() do
-		buff = buff .. line .. "\n"
-	end
+		-- 逐行读取并链接
+		lcoal buff = ""
+		for line in io.lines() do
+			buff = buff .. line .. "\n"
+		end
 
-	-- 读取整个文件
-	io.read("*all")
+		-- 读取整个文件
+		io.read("*all")
 
-	-- 用 table 存储,然后用 concat 链接
-	-- 暂用内存比第一种方法小
-	local t = {}
-	for line in io.lines() do
-		t[#t + 1] = line
-	end
-	s = table.concat(t, "\n") .. "\n"
+		-- 用 table 存储,然后用 concat 链接
+		-- 暂用内存比第一种方法小
+		local t = {}
+		for line in io.lines() do
+			t[#t + 1] = line
+		end
+		s = table.concat(t, "\n") .. "\n"
 
 84. 在 Lua 中,只能设置 table 的元表 (metatable),若要设置其他类型的值的元表,则必须通过 C 代码来完成。通过元表和元方法来实现 table 的操作,比如加法减法。
