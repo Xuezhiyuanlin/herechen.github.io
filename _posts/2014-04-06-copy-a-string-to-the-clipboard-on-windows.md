@@ -3,8 +3,7 @@ date: 2014-04-06 15:48:41 +0800
 creatdate: 2014-04-06 15:48:41 +0800
 layout: post
 title: 系统剪贴板读取和写入 (Windows、Python)
-thread: 14
-categories: 方案
+categories: 技术
 tags: python 剪贴板
 ---
 

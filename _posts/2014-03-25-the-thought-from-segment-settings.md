@@ -3,8 +3,7 @@ date: 2014-03-25 12:30:50
 creatdate: 2014-03-25 17:15:25
 layout: post
 title: 由标志寄存器参数设置引起的 “低耗” 思考
-thread: 8
-categories: 日志
+categories: 生活
 tags: 思考
 ---
 

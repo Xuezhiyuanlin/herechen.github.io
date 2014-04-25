@@ -3,7 +3,6 @@ date: 2014-03-28 13:07:09
 creatdate: 2014-03-28 13:07:09
 layout: post
 title: 尼采：在世纪的转折点上 (周国平)
-thread: 11
 categories: 读书
 tags: 读书
 ---

@@ -3,7 +3,6 @@ date: 2014-04-06 19:38:49
 creatdate: 2014-03-16 23:42:31
 layout: post
 title: Web 资源集锦
-thread: 6
 categories: 资源
 tags: css html javascript
 ---

@@ -2,8 +2,8 @@
 date: 2014-04-24 20:48:31
 creatdate: 2014-04-23 12:43:25
 layout: post
-title: Sublime Text Leaning Log
-categories: tools
+title: Leaning Log for Sublime Text
+categories: 工具
 tags: sublime text
 ---
 

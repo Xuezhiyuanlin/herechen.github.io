@@ -123,91 +123,43 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/E/baiducloud/Log/LuaLog.md",
-			"settings":
-			{
-				"buffer_size": 5405,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/baiducloud/Log/sublimeLog.md",
-			"settings":
-			{
-				"buffer_size": 7287,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2014-04-23-sublime-text-leaning-log.md",
-			"settings":
-			{
-				"buffer_size": 7438,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "{\n	// save before running commands\n	\"save_first\": true\n\n	// if present, use this command instead of plain \"git\"\n	// e.g. \"/Users/kemayo/bin/git\" or \"C:\\bin\\git.exe\"\n	,\"git_command\": false\n\n	// point this the installation location of git-flow\n	,\"git_flow_command\": \"/usr/local/bin/git-flow\"\n\n	// use the panel for diff output, rather than a new scratch window (new tab)\n	,\"diff_panel\": false\n\n	// If you'd rather have your status command open files instead of show you a\n	// diff, set this to true.  You can still do `Git: Status` followed by\n	// 'Git: Diff Current File' to get a file diff\n	,\"status_opens_file\": false\n\n	// Use --verbose flag for commit messages\n	,\"verbose_commits\": true\n\n	// How many commit messages to store in the history. Set to 0 to disable.\n	,\"history_size\": 5\n\n	// Show git flow commands\n	,\"flow\": false\n\n	// Annotations default to being on for all files. Can be slow in some cases.\n	,\"annotations\": false\n\n	// statusbar\n	,\"statusbar_branch\": true\n	// Symbols for quick git status in status bar\n	,\"statusbar_status\": true\n	,\"statusbar_status_symbols\" : {\"modified\": \"≠\", \"added\": \"+\", \"deleted\": \"×\", \"untracked\": \"?\", \"conflicts\": \"‼\", \"renamed\":\"R\", \"copied\":\"C\", \"clean\": \"√\", \"separator\": \" \"}\n\n	// e.g. \"Packages/Git/syntax/Git Commit Message.tmLanguage\"\n	,\"diff_syntax\": \"Packages/Diff/Diff.tmLanguage\"\n}\n",
-			"file": "/C/Program/SublimeText/Data/Packages/Git/Git.sublime-settings",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 1336,
-				"line_ending": "Windows",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "/E/baiducloud/Log/mytask.TODO",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/HereChen/Desktop/lua.lua",
-			"settings":
-			{
-				"buffer_size": 1744,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 52,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "\ngit add . \ngit commit -m \"herechen\" \ngit push -u origin master",
-			"file": "git-blog.sh",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 63,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/User/git-blog.sublime-build",
 	"command_palette":
 	{
-		"height": 150.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"push",
-				"Git: Push"
+				"exte",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"toc",
+				"MarkdownTOC:Update TOC"
+			],
+			[
+				"ins",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"in",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
 			],
 			[
 				"git",
+				"Git: Push"
+			],
+			[
+				"push",
 				"Git: Push"
 			],
 			[
@@ -223,20 +175,12 @@
 				"Git: Commit"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"open",
 				"Gist: Open Gist"
 			],
 			[
 				"mar",
 				"Set Syntax: Markdown Extended"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"markdown",
@@ -291,10 +235,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
 				"css",
 				"Set Syntax: CSS"
 			],
@@ -321,10 +261,6 @@
 			[
 				"Lu",
 				"Set Syntax: Lua"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"lua",
@@ -379,7 +315,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 576.0
+		"width": 549.0
 	},
 	"console":
 	{
@@ -400,36 +336,54 @@
 	},
 	"file_history":
 	[
+		"/E/baiducloud/herechen.github.io/blog_update_log.md",
+		"/E/baiducloud/herechen.github.io/media/css/style.css",
+		"/E/baiducloud/herechen.github.io/categories/index.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-04-23-sublime-text-leaning-log.md",
+		"/E/baiducloud/herechen.github.io/my-blog.sublime-project",
+		"/E/baiducloud/herechen.github.io/.gitignore",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-13-different-kindle-format-convert-pandoc.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-04-02-zhouguoping-ren-yu-yong-heng.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-04-first-blog.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-04-04-yi-shi-liu-bu-liu-yu-wo-he-qiu.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-16-jekyll-skills.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-26-wangxiaobo-if-you-will-so-love.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-21-remember-by-telling-story.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-08-my-lightly-life.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-25-the-thought-from-segment-settings.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-28-zhouguoping-Nietzsche-on-turning-point-of-century.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-27-kindle-clippings-export.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-04-06-copy-a-string-to-the-clipboard-on-windows.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-16-web-source-collected.md",
+		"/E/baiducloud/herechen.github.io/_posts/2014-03-08-Emacs-AUCTeX-installation-settings.md",
+		"/E/baiducloud/Log/LuaLog.md",
+		"/C/Users/HereChen/Desktop/lua.lua",
+		"/E/baiducloud/Log/mytask.TODO",
+		"/C/Program/SublimeText/HereChenSublimeSettings.md",
+		"/E/baiducloud/Log/sublimeLog.md",
+		"/C/Users/HereChen/.gitconfig",
+		"/E/baiducloud/herechen.github.io/git-blog.bat",
+		"/C/Program/SublimeText/Data/Packages/User/git-blog.sublime-build",
+		"/C/Program/SublimeText/Data/Packages/Git/Git.sublime-settings",
 		"/C/Program/SublimeText/Data/Packages/Gist/Gist.sublime-settings",
 		"/C/Program/SublimeText/Data/Packages/User/Git.sublime-settings",
-		"/C/Program/SublimeText/Data/Packages/Git/Git.sublime-settings",
 		"/E/baiducloud/herechen.github.io/git-blog.sh",
-		"/C/Program/SublimeText/Data/Packages/User/git-blog.sublime-build",
-		"/E/baiducloud/herechen.github.io/.gitignore",
-		"/E/baiducloud/herechen.github.io/my-blog.sublime-project",
 		"/E/baiducloud/Log/sublimeLog(HERECHEN-PC--HereChen--2014-04-24-18,27,04).md",
 		"/C/Program/SublimeText/Data/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
 		"/E/baiducloud/Log/sublimeLog.html",
 		"/E/baiducloud/herechen.github.io/mytask.TODO",
-		"/E/baiducloud/Log/mytask.TODO",
 		"/C/Program/SublimeText/Data/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Program/SublimeText/Data/Packages/Alignment/Default (Windows).sublime-keymap",
 		"/C/Program/SublimeText/Data/Packages/Terminal/Base File.sublime-settings",
 		"/C/Program/SublimeText/Data/Packages/User/Preferences.sublime-settings",
-		"/E/baiducloud/Log/sublimeLog.md",
-		"/C/Program/SublimeText/HereChenSublimeSettings.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-04-23-sublime-text-leaning-log.md",
 		"/C/Program/SublimeText/Data/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
 		"/C/Users/HereChen/Desktop/test.TODO",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-28-zhouguoping-Nietzsche-on-turning-point-of-century.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-08-Emacs-AUCTeX-installation-settings.md",
 		"/E/baiducloud/herechen.github.io/_site/zhouguoping-ren-yu-yong-heng/index.html",
 		"/C/Program/SublimeText/Data/Packages/User/Gist.sublime-settings",
 		"/E/baiducloud/herechen.github.io/CNAME",
 		"/E/baiducloud/herechen.github.io/blog_update_log.txt",
 		"/E/baiducloud/herechen.github.io/media/js/modernizr.custom.68193.js",
 		"/C/Program/SublimeText/Data/Packages/Default/Preferences.sublime-settings",
-		"/E/baiducloud/Log/LuaLog.md",
 		"/E/360cloud/latex_file/TheWayMATLABLearning/secSpiceHere.tex",
 		"/E/baiducloud/Log/linuxLog.txt",
 		"/E/baiducloud/Log/emacsLog.txt",
@@ -448,18 +402,6 @@
 		"/E/baiducloud/herechen.github.io/_site/CNAME",
 		"/E/baiducloud/herechen.github.io/_site/blog_update_log.txt",
 		"/E/baiducloud/herechen.github.io/_site/404.html",
-		"/E/baiducloud/herechen.github.io/_posts/2014-04-06-copy-a-string-to-the-clipboard-on-windows.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-04-04-yi-shi-liu-bu-liu-yu-wo-he-qiu.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-04-02-zhouguoping-ren-yu-yong-heng.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-27-kindle-clippings-export.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-26-wangxiaobo-if-you-will-so-love.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-25-the-thought-from-segment-settings.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-21-remember-by-telling-story.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-16-web-source-collected.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-16-jekyll-skills.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-13-different-kindle-format-convert-pandoc.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-08-my-lightly-life.md",
-		"/E/baiducloud/herechen.github.io/_posts/2014-03-04-first-blog.md",
 		"/E/baiducloud/herechen.github.io/_layouts/post.html",
 		"/E/baiducloud/herechen.github.io/_layouts/page.html",
 		"/E/baiducloud/herechen.github.io/_layouts/default.html",
@@ -488,9 +430,7 @@
 		"/C/Users/HereChen/Desktop/luafile.html",
 		"/C/Users/HereChen/Desktop/hl.lua",
 		"/E/360cloud/matlab_file/cm.m",
-		"/E/baiducloud/herechen.github.io/media/css/style.css",
 		"/E/baiducloud/herechen.github.io/about/index.md",
-		"/C/Users/HereChen/.gitconfig",
 		"/C/Users/HereChen/Desktop/TEMP/matchtry.m",
 		"/E/360cloud/matlab_file/ShortTips/带加号的文件夹",
 		"/E/baiducloud/Log/matlab",
@@ -503,7 +443,6 @@
 		"/C/Program/SublimeText/Data/Packages/User/inserttime.py",
 		"/C/Program/SublimeText/Data/Packages/User/myplugin/inserttime.py",
 		"/E/baiducloud/herechen.github.io/tags/index.md",
-		"/E/baiducloud/herechen.github.io/categories/index.md",
 		"/E/baiducloud/herechen.github.io/guestbook/index.md",
 		"/E/baiducloud/code_source_short/clipcontent.py",
 		"/E/360cloud/latex_file/TheWayMATLABLearning/secSkillsSome.tex",
@@ -511,7 +450,6 @@
 		"/E/baiducloud/herechen.github.io/media/css/home.css",
 		"/E/baiducloud/herechen.github.io/posts/index.md",
 		"/E/baiducloud/herechen.github.io/posts/index.html",
-		"/C/Users/HereChen/Desktop/lua.lua",
 		"/E/360cloud/latex_file/TheWayMATLABLearning/appendix.tex",
 		"/E/360cloud/latex_file/TheWayMATLABLearning/abstract.tex",
 		"/E/360cloud/latex_file/templates/presentation_template_chen/LastReport.tex",
@@ -525,9 +463,7 @@
 		"/C/Program/SublimeText/Data/Packages/User/LaTeXTools.sublime-settings",
 		"/C/Program/SublimeText/Data/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/C/Program/SublimeText/Data/Cache/Monokai Extended/Monokai Extended.tmTheme.cache",
-		"/C/Program/SublimeText/Packages/Color Scheme - Default.sublime-package",
-		"/C/Program/SublimeText/Data/Cache/Color Scheme - Default/Monokai.tmTheme.cache",
-		"/E/360cloud/latex_file/mymatlablearning/appendix.tex"
+		"/C/Program/SublimeText/Packages/Color Scheme - Default.sublime-package"
 	],
 	"find":
 	{
@@ -545,6 +481,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2014",
+			":",
+			"----------------------------------------------------------------",
+			"###",
+			"##",
 			"##.+",
 			"\"\n",
 			"##.+",
@@ -603,6 +544,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"##",
 			";  ",
 			"#333",
 			"#999999",
@@ -620,605 +562,13 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/E/baiducloud/Log/LuaLog.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close"
-							],
-							"origin_encoding": "UTF-8",
-							"parser": "markdown",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
-							"target": "disk",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/baiducloud/Log/sublimeLog.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5375,
-								5375
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "UTF-8",
-							"parser": "markdown",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
-							"target": "disk",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2014-04-23-sublime-text-leaning-log.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5480,
-								5480
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4512.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Program/SublimeText/Data/Packages/Git/Git.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								390,
-								390
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/baiducloud/Log/mytask.TODO",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 5,
-					"file": "/C/Users/HereChen/Desktop/lua.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1567,
-								1567
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Lua/Lua.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1665.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								51
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "git-blog.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 63,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1262,7 +612,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 173.0
+		"height": 130.0
 	},
 	"output.find_results":
 	{
@@ -1279,7 +629,7 @@
 	"project": "my-blog.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1287,6 +637,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sub",
+				"_posts\\2014-04-23-sublime-text-leaning-log.md"
+			],
 			[
 				"todo",
 				"Log\\mytask.TODO"
@@ -1316,6 +670,10 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"E:\\baiducloud\\Log\\my-log.sublime-project"
+			],
+			[
 				"",
 				"E:\\baiducloud\\Log\\my-log.sublime-project"
 			]
@@ -1337,7 +695,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

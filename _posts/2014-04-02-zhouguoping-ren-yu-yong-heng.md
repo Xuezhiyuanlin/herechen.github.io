@@ -3,7 +3,6 @@ date: 2014-04-02 15:06:00 +0800
 creatdate: 2014-04-02 15:06:00 +0800
 layout: post
 title: 人与永恒 (周国平)
-thread: 12
 categories: 读书
 tags: 读书
 ---

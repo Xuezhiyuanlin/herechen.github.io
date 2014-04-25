@@ -3,9 +3,8 @@ date: 2014-04-04 22:23:15 +0800
 creatdate: 2014-04-04 22:23:15 +0800
 layout: post
 title: 意识流不流，于我何求
-thread: 13
-categories: 日志
-tags: 日志
+categories: 生活
+tags: 思考
 ---
 
 格言式的记录，简洁明了。此文正是要收集平日思索之点滴。一者以思考引发思考，二者以思考寻求出路。

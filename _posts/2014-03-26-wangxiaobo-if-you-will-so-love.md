@@ -3,7 +3,6 @@ date: 2014-03-28 22:34:01
 creatdate: 2014-03-26 00:38:41
 layout: post
 title: 假如你愿意，你就恋爱吧 (王小波，李银河)
-thread: 9
 categories: 读书
 tags: 读书
 ---

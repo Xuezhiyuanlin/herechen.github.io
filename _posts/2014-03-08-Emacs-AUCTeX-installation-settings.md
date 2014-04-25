@@ -3,8 +3,7 @@ date: 2014-03-10 11:34:44
 creatdate: 2014-03-08 21:41:36
 layout: post
 title: Emacs 和 AUCTeX 的安装与配置
-thread: 3
-categories: 软件
+categories: 工具
 tags: emacs latex
 ---
 

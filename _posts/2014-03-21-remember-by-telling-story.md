@@ -3,9 +3,8 @@ date: 2014-03-21 23:05:00
 creatdate: 2014-03-21 23:05:00
 layout: post
 title: 在复习的时候练习讲故事
-thread: 7
-categories: 日志
-tags: 日志
+categories: 生活
+tags: 思考
 ---
 
 前些天看了 TED 的一个讲解记忆方法的视频，叫作[每个人都能掌握的记忆技巧](http://v.163.com/movie/2012/1/F/7/M8SI72TUD_M8SI78DF7.html)，觉得甚是奇妙。大概的意思是，通过编造故事的方式把要记忆的东西串联起来，这样就比较方便记忆了。那么，就看你编故事的能力了。

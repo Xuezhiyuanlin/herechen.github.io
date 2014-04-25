@@ -3,12 +3,10 @@ date: 2014-03-04 19:08:04
 creatdate: 2014-03-04 19:08:04
 layout: post
 title: 我的第一个博客
-thread: 1
-categories: 日志
-tags: 日志
+categories: 生活
+tags: 生活
 ---
 
-## 背景
 这个博客用jekyll搭建,放在github上.
 
 ## 过程

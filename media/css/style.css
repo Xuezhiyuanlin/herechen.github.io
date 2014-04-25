@@ -66,6 +66,7 @@ header h1 a{font-size: 30px;font-weight:300;color: #ffffff;padding: 10px 0px;}
 .pageNavRight,.pageNavInvalidRight{float: right;}
 /*sharebutton*/
 .displaybutton{font-size: 16px;width:100%; height:30px;vertical-align: middle; cursor: pointer;}
+.displaybutton:hover{background: #ddd}
 /*footer*/
 footer{height: 45px;text-align:center;display:block;}
 #social-icons ul{margin: 0;padding: 0;display: block;}
