@@ -90,20 +90,8 @@ blockquote p{margin:0;padding:.5em 0;}
 /* code */
 code,pre{font-family: 'Ubuntu Mono', monospace;}
 pre{overflow: auto;margin:1em 0;font-size:13px;line-height:1.5;}
-.content li code,.content p code,.content table code {
-	color: #4d4d4d;
-	background: #f8f8f8;
-	padding: 0 0.2em;
-	border: 1px solid #eee;
-	border-radius: 3px 3px;
-	position: relative;
-	top: -2px;
-	margin: 0 3px;
-	font-size:13px;
-}
+code {background: #eee;}
+pre code{background: #272822;}
 /*tag*/
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333 !important;text-decoration:none;}
-
-
-/*embed,object,iframe{display:block;margin:4px auto;}*/
