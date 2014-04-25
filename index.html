@@ -11,14 +11,14 @@ layout: page
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </div>
       <div class="meta">
-        <span clas="time">修改 
+        <span class="categories">分类 
+        <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}  </a>
+        </span>
+        <span clas="time">&nbsp;|&nbsp;修改&nbsp;
           <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         </span>
         <span  class="time">&nbsp;|&nbsp;创建&nbsp;
           <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.creatdate | date:"%Y-%m-%d" }}</time>
-        </span>
-        <span class="categories">&nbsp;|&nbsp;分类&nbsp;
-        <a href="/categories/#{{ post.categories }}" title="{{ post.categories }}">{{ post.categories }}  </a>
         </span>
         <span class="author">&nbsp;|&nbsp;作者&nbsp; 
           <a href="/about/">{{ site.author }}</a>
