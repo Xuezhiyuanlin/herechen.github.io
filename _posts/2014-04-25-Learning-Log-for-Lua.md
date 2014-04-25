@@ -4,7 +4,7 @@ creatdate: 2014-04-25 15:32:00
 layout: post
 title: Learning Log for Lua
 categories: 技术
-tags: 语言, Lua
+tags: 语言 Lua
 ---
 
 大概看了一下 Lua 程序设计第二版,把基础部分过了一遍.对于脚本语言 Lua,印象深刻之处在于它的灵活性、小巧的解析器、可以和 C 语言混编、包含 XML 分析器.若是简单的计算,直接下个未过 M 级别的解析器,也能搞定一些计算和文本处理.鉴于目前用并没有对它有太大需求,暂且告一段落.(有打算把 MATLAB 版的 Kindle 笔记导出改写为 Lua,这样更加方便利用一点.) 
