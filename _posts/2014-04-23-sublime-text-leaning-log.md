@@ -1,5 +1,5 @@
 ---
-date: 2014-04-24 20:48:31
+date: 2014-04-25 23:35:28
 creatdate: 2014-04-23 12:43:25
 layout: post
 title: Leaning Log for Sublime Text
@@ -9,11 +9,12 @@ tags: sublimetext
 
 这是我的 Sublime Text 学习日志. 当前处于更新当中.除了开始的搜索引擎搜索学到的,最主要的学习途径是视频学习.这里推荐两个不错的视频集: Perfect Workflow in Sublime Text 和 Up and Running with Sublime Text.
 
+## 目录
 <!-- MarkdownTOC depth=2 -->
 
 - 快捷键
 - Command Palette
-- User Settings 和 Default Settings
+- 一些细节
 - 工程(project)
 - 快捷输入 Snippets, 自动补齐
 - 组间宽度
@@ -58,15 +59,23 @@ tags: sublimetext
 17. Ctrl + Alt + P 工程切换
 18. Ctrl + Shift + 1/2 当前窗口切换到第 1/2 组
 19. Ctrl + K, Ctrl + Left/Right 组之间的切换
+20. Ctrl + Shift + F 可以选择位置的搜索
+21. F3(Shift + F3) 在搜索的结果中跳转 (Find Next),关闭搜索后仍然可以在上一次的结果中跳转.
+22. Alt + Left/Right 以单词为单位移动光标.
+23. Ctrl + Shift + Space 选中一个区域(双引号或者括号等界定的区域),多次 Space 可以扩大选中区域.
+24. Ctrl + F2 设置书签,然后可以通过 F2(Shift + F2)快速的在书签之间跳转.
  
 ## Command Palette
 
 1. 通过 Command Palette 可以安装插件，执行快捷方式，快捷设置高亮等。
 2. 安装插件：Ctrl + Shift + P ，选中 Install Package 回车，稍等片刻，在此 Ctrl + Shift + P 搜索插件并安装, 卸载 remove...  
 
-## User Settings 和 Default Settings
+## 一些细节
 
-改变设置尽量不要修改 Default 设置,可以在 User 中修改.这样可以使 User 中的设置覆盖原来的设置.
+1. File -> New View Into File 一个文件两个视图,改变任何一个,都会同时显示更改.
+2. 设置参数在 Preferences -> Settings Default.
+3. 改变设置尽量不要修改 Default 设置,可以在 User 中修改.这样可以使 User 中的设置覆盖原来的设置.
+4. 不同语言的不同设置方法 Preference -> Settings More -> Syntax Specific User.
 
 ## 工程(project)
 
@@ -79,7 +88,13 @@ tags: sublimetext
 				"path": "E:\\baiducloud\\Log",
 				"file_exclude_patterns": ["*.css"]
 			}
-		]
+		],
+		"settings":
+		{
+			"fontsize": 12,
+			"tab_size": 2,
+			"translate_tabs_to_spaces": true
+		}
 	}
 
 ## 快捷输入 Snippets, 自动补齐
@@ -271,4 +286,5 @@ python 文件,另存为 cmd.py (放于 preference-browse package 路径下)
 11. DocBlockr [https://github.com/spadgos/sublime-jsdocs](https://github.com/spadgos/sublime-jsdocs) 文档写作,可以便捷的写注释,比如通过识别函数的参数在写注释的时候通过 tab 更加快捷的补充注释.支持的语言有 JavaScript, PHP, ActionScript, CoffeeScript, TypeScript, Java, Groovy, Objective C, C, C++ and Rust.
 12. PlainTask 任务管理.
 13. LiveReload 结合 Chrome 插件可以实现在编辑保存网页文件时,实时预览网页效果.
+14. MarkdownTOC 插入 Markdown 文件目录.
 
