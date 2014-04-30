@@ -85,9 +85,7 @@ footer{height: 45px;text-align:center;display:block;}
 /*post info*/
 .meta{font-size:12px;color:#999999;margin: 0 0 5px 0;padding: 5px;line-height: 100%;}
 /*blockquote*/
-blockquote{display:block;text-align:justify;border-left:4px solid #999999;}
-blockquote{margin:1em 0em;padding-left:1.5em;}
-blockquote p{margin:0;padding:.5em 0;}
+blockquote{margin:1em 0em;padding-left:1.5em;display:block;text-align:justify;border-left:4px solid #980000;background: #eee;}
 /* code */
 code,pre{font-family: 'Ubuntu Mono', monospace;}
 pre{overflow: auto;margin:1em 0;font-size:13px;line-height:1.5;}
