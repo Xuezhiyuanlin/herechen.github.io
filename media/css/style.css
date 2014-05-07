@@ -14,7 +14,7 @@ body{font-size:14px;
 }
 *{padding:0;margin: 0;border:none;outline:none;}
 /*color*/
-header,footer,.nav,#instantclick-bar{background: #980000;}
+header,footer,#instantclick-bar{background: #980000;}
 .displaybutton,.meta{background: #eee;}
 /*custom*/
 h1,h2,h3,h4{font-weight: 400; color: #980000;}
@@ -43,11 +43,11 @@ p,ul{margin-bottom: 14px;margin-top: 14px;}
 	box-shadow: 0 2px 6px rgba(100,100,100,0.3);
 }
 /*header*/
-header{padding:30px;display: block;position:relative;}
+header{padding:40px 30px;display: block;position:relative;}
 header h1 a{font-size: 30px;font-weight:300;color: #ffffff;padding: 10px 0px;}
 .logo{top: 20px;right:30px;max-width: 100%;vertical-align: middle;position: absolute;margin: 2px;}
 /*navigation*/
-.nav{font-size: 14px;height: 30px;text-transform:uppercase;}
+.nav{font-size: 14px;height: 30px;text-transform:uppercase;background: #660000;}
 .nav ul{margin: 0;padding: 0;line-height: 30px;list-style: none;}
 .nav li{float:left;width: 12.5%;height: 30px;}
 .nav a{display:block;color:#ffffff;text-align: center;}
