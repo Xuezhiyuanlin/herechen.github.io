@@ -7,7 +7,7 @@ categories: 工具
 tags: sublimetext
 ---
 
-这是我的 Sublime Text 学习日志. 当前处于更新当中.除了开始的搜索引擎搜索学到的,最主要的学习途径是视频学习.这里推荐两个不错的视频集: Perfect Workflow in Sublime Text 和 Up and Running with Sublime Text.
+这是我的 Sublime Text 学习日志. 当前处于更新当中.除了开始的搜索引擎搜索学到的,最主要的学习途径是视频学习.
 
 ## 目录
 <!-- MarkdownTOC depth=2 -->
