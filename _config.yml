@@ -13,4 +13,4 @@ safe: true         				# 安全模式
 paginate: 10					# 首页分页
 analytics: UA-48539473-1 		# GoogleAnalytics
 quote: "I do not want to survive. I want to live." # 喜欢的话
-truncate: yes
+truncate: 100

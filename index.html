@@ -26,7 +26,8 @@ layout: page
       </div>
       {% if site.truncate %}
         <div class="excerpt">
-          {{ post.excerpt }}
+          {{ post.content | strip_html | truncate: site.truncate }}
+          <!-- {{ post.excerpt }} -->
         <div>
       {% endif%}
     </li>
