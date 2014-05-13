@@ -7,7 +7,7 @@ comments: no
 ### 友情链接
 
 UnkelTao: [http://www.unkeltao.com/](http://www.unkeltao.com/)  
-CevinJohnny: [http://cevinJohnny.git.io](http://cevinJohnny.git.io)
+CevinJohnny: [http://cevinJohnny.github.io](http://cevinJohnny.git.io)
 
 ### 推荐博客
 
