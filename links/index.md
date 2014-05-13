@@ -6,13 +6,13 @@ comments: no
 
 ### 友情链接
 
-UnkelTao: [http://www.unkeltao.com/](http://www.unkeltao.com/)  
-CevinJohnny: [http://cevinJohnny.github.io](http://cevinJohnny.git.io)
+UnkelTao: [www.unkeltao.com](http://www.unkeltao.com/)  
+CevinJohnny: [cevinJohnny.github.io](http://cevinJohnny.git.io)
 
 ### 推荐博客
 
-草依山：[http://jser.me/](http://jser.me/)  
-Seeksky：[http://xujinlai.tk/](http://xujinlai.tk/)
+草依山：[jser.me](http://jser.me/)  
+Seeksky：[xujinlai.tk](http://xujinlai.tk/)
 
 ### 社交论坛
 
