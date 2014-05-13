@@ -21,7 +21,7 @@ tags: 语言 HTML
 
 2. 更多的是用标记 (section,header...)，在需要的时候使用 div。
 3. 让老的 IE 支持一些无法解析的标签样式，可以使用 [html5shim](https://code.google.com/p/html5shim/)。
-4. 为浏览器提供 HTML 内容的信息 (mircodata)：在标签中对内容的属性进行说明。查看 [schema.org](schema.org)。
+4. 为浏览器提供 HTML 内容的信息 (mircodata)：在标签中对内容的属性进行说明。查看 [schema.org](http://schema.org/)。
 5. 区分标签的方法：在结尾处加入注释。
 
 		<div class="main">
